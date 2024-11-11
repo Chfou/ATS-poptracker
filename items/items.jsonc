@@ -1,0 +1,769 @@
+[
+  //more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#items
+
+ {
+  "name": "Fishing Hut",
+  "type": "toggle",
+  "img": "images/items/buildings/camps/Fishing_Hut.png",
+  "codes": "fishing_hut"
+ },
+ {
+  "name": "Foragers Camp",
+  "type": "toggle",
+  "img": "images/items/buildings/camps/Foragers_Camp.png",
+  "codes": "foragers_camp"
+ },
+ {
+  "name": "Herbalists Camp",
+  "type": "toggle",
+  "img": "images/items/buildings/camps/Herbalists_Camp.png",
+  "codes": "herbalists_camp"
+ },
+ {
+  "name": "Trappers Camp",
+  "type": "toggle",
+  "img": "images/items/buildings/camps/Trappers_Camp.png",
+  "codes": "trappers_camp"
+ },
+ {
+  "name": "Apothecary",
+  "type": "toggle",
+  "img": "images/items/buildings/food_production/Apothecary.png",
+  "codes": "apothecary"
+ },
+ {
+  "name": "Bakery",
+  "type": "toggle",
+  "img": "images/items/buildings/food_production/Bakery.png",
+  "codes": "bakery"
+ },
+ {
+  "name": "Beanery",
+  "type": "toggle",
+  "img": "images/items/buildings/food_production/Beanery.png",
+  "codes": "beanery"
+ },
+ {
+  "name": "Butcher",
+  "type": "toggle",
+  "img": "images/items/buildings/food_production/Butcher.png",
+  "codes": "butcher"
+ },
+ {
+  "name": "Cellar",
+  "type": "toggle",
+  "img": "images/items/buildings/food_production/Cellar.png",
+  "codes": "cellar"
+ },
+ {
+  "name": "Clay Pit",
+  "type": "toggle",
+  "img": "images/items/buildings/food_production/Clay_Pit.png",
+  "codes": "clay_pit"
+ },
+ {
+  "name": "Cookhouse",
+  "type": "toggle",
+  "img": "images/items/buildings/food_production/Cookhouse.png",
+  "codes": "cookhouse"
+ },
+ {
+  "name": "Field Kitchen",
+  "type": "toggle",
+  "img": "images/items/buildings/food_production/Field_Kitchen.png",
+  "codes": "field_kitchen"
+ },
+ {
+  "name": "Foresters Hut",
+  "type": "toggle",
+  "img": "images/items/buildings/food_production/Foresters_Hut.png",
+  "codes": "foresters_hut"
+ },
+ {
+  "name": "Furnace",
+  "type": "toggle",
+  "img": "images/items/buildings/food_production/Furnace.png",
+  "codes": "furnace"
+ },
+ {
+  "name": "Granary",
+  "type": "toggle",
+  "img": "images/items/buildings/food_production/Granary.png",
+  "codes": "granary"
+ },
+ {
+  "name": "Greenhouse",
+  "type": "toggle",
+  "img": "images/items/buildings/food_production/Greenhouse.png",
+  "codes": "greenhouse"
+ },
+ {
+  "name": "Grill",
+  "type": "toggle",
+  "img": "images/items/buildings/food_production/Grill.png",
+  "codes": "grill"
+ },
+ {
+  "name": "Herb Garden",
+  "type": "toggle",
+  "img": "images/items/buildings/food_production/Herb_Garden.png",
+  "codes": "herb_garden"
+ },
+ {
+  "name": "Homestead",
+  "type": "toggle",
+  "img": "images/items/buildings/food_production/Homestead.png",
+  "codes": "homestead"
+ },
+ {
+  "name": "Pantry",
+  "type": "toggle",
+  "img": "images/items/buildings/food_production/Pantry.png",
+  "codes": "pantry"
+ },
+ {
+  "name": "Plantation",
+  "type": "toggle",
+  "img": "images/items/buildings/food_production/Plantation.png",
+  "codes": "plantation"
+ },
+ {
+  "name": "Rain Mill",
+  "type": "toggle",
+  "img": "images/items/buildings/food_production/Rain_Mill.png",
+  "codes": "rain_mill"
+ },
+ {
+  "name": "Ranch",
+  "type": "toggle",
+  "img": "images/items/buildings/food_production/Ranch.png",
+  "codes": "ranch"
+ },
+ {
+  "name": "SmallFarm",
+  "type": "toggle",
+  "img": "images/items/buildings/food_production/SmallFarm.png",
+  "codes": "smallfarm"
+ },
+ {
+  "name": "Smokehouse",
+  "type": "toggle",
+  "img": "images/items/buildings/food_production/Smokehouse.png",
+  "codes": "smokehouse"
+ },
+ {
+  "name": "Advanced_Rain_Catcher",
+  "type": "toggle",
+  "img": "images/items/buildings/industry/Advanced_Rain_Catcher.png",
+  "codes": "advanced_rain_catcher"
+ },
+ {
+  "name": "Alchemist Hut",
+  "type": "toggle",
+  "img": "images/items/buildings/industry/Alchemist_Hut.png",
+  "codes": "alchemist_hut"
+ },
+ {
+  "name": "Artisan",
+  "type": "toggle",
+  "img": "images/items/buildings/industry/Artisan.png",
+  "codes": "artisan"
+ },
+ {
+  "name": "Brewery",
+  "type": "toggle",
+  "img": "images/items/buildings/industry/Brewery.png",
+  "codes": "brewery"
+ },
+ {
+  "name": "Brick Oven",
+  "type": "toggle",
+  "img": "images/items/buildings/industry/Brick_Oven.png",
+  "codes": "brick_oven"
+ },
+ {
+  "name": "Brickyard",
+  "type": "toggle",
+  "img": "images/items/buildings/industry/Brickyard.png",
+  "codes": "brickyard"
+ },
+ {
+  "name": "Cannery",
+  "type": "toggle",
+  "img": "images/items/buildings/industry/Cannery.png",
+  "codes": "cannery"
+ },
+ {
+  "name": "Carpenter",
+  "type": "toggle",
+  "img": "images/items/buildings/industry/Carpenter.png",
+  "codes": "carpenter"
+ },
+ {
+  "name": "Clothier",
+  "type": "toggle",
+  "img": "images/items/buildings/industry/Clothier.png",
+  "codes": "clothier"
+ },
+ {
+  "name": "Cobbler",
+  "type": "toggle",
+  "img": "images/items/buildings/industry/Cobbler.png",
+  "codes": "cobbler"
+ },
+ {
+  "name": "Cooperage",
+  "type": "toggle",
+  "img": "images/items/buildings/industry/Cooperage.png",
+  "codes": "cooperage"
+ },
+ {
+  "name": "Distillery",
+  "type": "toggle",
+  "img": "images/items/buildings/industry/Distillery.png",
+  "codes": "distillery"
+ },
+ {
+  "name": "Druid",
+  "type": "toggle",
+  "img": "images/items/buildings/industry/Druid.png",
+  "codes": "druid"
+ },
+ {
+  "name": "Finesmith",
+  "type": "toggle",
+  "img": "images/items/buildings/industry/Finesmith.png",
+  "codes": "finesmith"
+ },
+ {
+  "name": "Kiln",
+  "type": "toggle",
+  "img": "images/items/buildings/industry/Kiln.png",
+  "codes": "kiln"
+ },
+ {
+  "name": "Leatherworks",
+  "type": "toggle",
+  "img": "images/items/buildings/industry/Leatherworks.png",
+  "codes": "leatherworks"
+ },
+ {
+  "name": "Lumbermill",
+  "type": "toggle",
+  "img": "images/items/buildings/industry/Lumbermill.png",
+  "codes": "lumbermill"
+ },
+ {
+  "name": "Manufactory",
+  "type": "toggle",
+  "img": "images/items/buildings/industry/Manufactory.png",
+  "codes": "manufactory"
+ },
+ {
+  "name": "Press",
+  "type": "toggle",
+  "img": "images/items/buildings/industry/Press.png",
+  "codes": "press"
+ },
+ {
+  "name": "Provisioner",
+  "type": "toggle",
+  "img": "images/items/buildings/industry/Provisioner.png",
+  "codes": "provisioner"
+ },
+ {
+  "name": "Scribe",
+  "type": "toggle",
+  "img": "images/items/buildings/industry/Scribe.png",
+  "codes": "scribe"
+ },
+ {
+  "name": "Smelter",
+  "type": "toggle",
+  "img": "images/items/buildings/industry/Smelter.png",
+  "codes": "smelter"
+ },
+ {
+  "name": "Smithy",
+  "type": "toggle",
+  "img": "images/items/buildings/industry/Smithy.png",
+  "codes": "smithy"
+ },
+ {
+  "name": "Stamping Mill",
+  "type": "toggle",
+  "img": "images/items/buildings/industry/Stamping_Mill.png",
+  "codes": "stamping_mill"
+ },
+ {
+  "name": "Supplier",
+  "type": "toggle",
+  "img": "images/items/buildings/industry/Supplier.png",
+  "codes": "supplier"
+ },
+ {
+  "name": "Tea House",
+  "type": "toggle",
+  "img": "images/items/buildings/industry/Tea_House.png",
+  "codes": "tea_house"
+ },
+ {
+  "name": "Tinctury",
+  "type": "toggle",
+  "img": "images/items/buildings/industry/Tinctury.png",
+  "codes": "tinctury"
+ },
+ {
+  "name": "Tinkerer",
+  "type": "toggle",
+  "img": "images/items/buildings/industry/Tinkerer.png",
+  "codes": "tinkerer"
+ },
+ {
+  "name": "Toolshop",
+  "type": "toggle",
+  "img": "images/items/buildings/industry/Toolshop.png",
+  "codes": "toolshop"
+ },
+ {
+  "name": "Weaver",
+  "type": "toggle",
+  "img": "images/items/buildings/industry/Weaver.png",
+  "codes": "weaver"
+ },
+ {
+  "name": "Workshop",
+  "type": "toggle",
+  "img": "images/items/buildings/industry/Workshop.png",
+  "codes": "workshop"
+ },
+ {
+  "name": "Bath_House",
+  "type": "toggle",
+  "img": "images/items/buildings/services/Bath_House.png",
+  "codes": "bath_house"
+ },
+ {
+  "name": "Clan_Hall",
+  "type": "toggle",
+  "img": "images/items/buildings/services/Clan_Hall.png",
+  "codes": "clan_hall"
+ },
+ {
+  "name": "Explorers Lodge",
+  "type": "toggle",
+  "img": "images/items/buildings/services/Explorers_Lodge.png",
+  "codes": "explorers_lodge"
+ },
+ {
+  "name": "Forum",
+  "type": "toggle",
+  "img": "images/items/buildings/services/Forum.png",
+  "codes": "forum"
+ },
+ {
+  "name": "Guild House",
+  "type": "toggle",
+  "img": "images/items/buildings/services/Guild_House.png",
+  "codes": "guild_house"
+ },
+ {
+  "name": "Market",
+  "type": "toggle",
+  "img": "images/items/buildings/services/Market.png",
+  "codes": "market"
+ },
+ {
+  "name": "Monastery",
+  "type": "toggle",
+  "img": "images/items/buildings/services/Monastery.png",
+  "codes": "monastery"
+ },
+ {
+  "name": "Tavern",
+  "type": "toggle",
+  "img": "images/items/buildings/services/Tavern.png",
+  "codes": "tavern"
+ },
+ {
+  "name": "Tea_Doctor",
+  "type": "toggle",
+  "img": "images/items/buildings/services/Tea_Doctor.png",
+  "codes": "tea_doctor"
+ },
+ {
+  "name": "Temple",
+  "type": "toggle",
+  "img": "images/items/buildings/services/Temple.png",
+  "codes": "temple"
+ },
+ {
+  "name": "Bricks",
+  "type": "toggle",
+  "img": "images/items/materials/building_materials/Bricks.png",
+  "codes": "bricks"
+ },
+ {
+  "name": "Fabric",
+  "type": "toggle",
+  "img": "images/items/materials/building_materials/Fabric.png",
+  "codes": "fabric"
+ },
+ {
+  "name": "Parts",
+  "type": "toggle",
+  "img": "images/items/materials/building_materials/Parts.png",
+  "codes": "parts"
+ },
+ {
+  "name": "Pipes",
+  "type": "toggle",
+  "img": "images/items/materials/building_materials/Pipes.png",
+  "codes": "pipes"
+ },
+ {
+  "name": "Planks",
+  "type": "toggle",
+  "img": "images/items/materials/building_materials/Planks.png",
+  "codes": "planks"
+ },
+ {
+  "name": "Wildfire",
+  "type": "toggle",
+  "img": "images/items/materials/building_materials/Wildfire.png",
+  "codes": "wildfire"
+ },
+ {
+  "name": "Biscuits",
+  "type": "toggle",
+  "img": "images/items/materials/complex_food/Biscuits.png",
+  "codes": "biscuits"
+ },
+ {
+  "name": "Jerky",
+  "type": "toggle",
+  "img": "images/items/materials/complex_food/Jerky.png",
+  "codes": "jerky"
+ },
+ {
+  "name": "Paste",
+  "type": "toggle",
+  "img": "images/items/materials/complex_food/Paste.png",
+  "codes": "paste"
+ },
+ {
+  "name": "Pickled Goods",
+  "type": "toggle",
+  "img": "images/items/materials/complex_food/PickledGoods.png",
+  "codes": "pickled_goods"
+ },
+ {
+  "name": "Pie",
+  "type": "toggle",
+  "img": "images/items/materials/complex_food/Pie.png",
+  "codes": "pie"
+ },
+ {
+  "name": "Porridge",
+  "type": "toggle",
+  "img": "images/items/materials/complex_food/Porridge.png",
+  "codes": "porridge"
+ },
+ {
+  "name": "Skewers",
+  "type": "toggle",
+  "img": "images/items/materials/complex_food/Skewers.png",
+  "codes": "skewers"
+ },
+ {
+  "name": "Ale",
+  "type": "toggle",
+  "img": "images/items/materials/consumable_items/Ale.png",
+  "codes": "ale"
+ },
+ {
+  "name": "Incense",
+  "type": "toggle",
+  "img": "images/items/materials/consumable_items/Incense.png",
+  "codes": "incense"
+ },
+ {
+  "name": "Scrolls",
+  "type": "toggle",
+  "img": "images/items/materials/consumable_items/Scrolls.png",
+  "codes": "scrolls"
+ },
+ {
+  "name": "Tea",
+  "type": "toggle",
+  "img": "images/items/materials/consumable_items/Tea.png",
+  "codes": "tea"
+ },
+ {
+  "name": "Training Gear",
+  "type": "toggle",
+  "img": "images/items/materials/consumable_items/Training_Gear.png",
+  "codes": "training_gear"
+ },
+ {
+  "name": "Wine",
+  "type": "toggle",
+  "img": "images/items/materials/consumable_items/Wine.png",
+  "codes": "wine"
+ },
+ {
+  "name": "Algae",
+  "type": "toggle",
+  "img": "images/items/materials/crafting_materials/Algae.png",
+  "codes": "algae"
+ },
+ {
+  "name": "Barrels",
+  "type": "toggle",
+  "img": "images/items/materials/crafting_materials/Barrels.png",
+  "codes": "barrels"
+ },
+ {
+  "name": "Clay",
+  "type": "toggle",
+  "img": "images/items/materials/crafting_materials/Clay.png",
+  "codes": "clay"
+ },
+ {
+  "name": "Copper Bar",
+  "type": "toggle",
+  "img": "images/items/materials/crafting_materials/Copper_Bar.png",
+  "codes": "copper_bar"
+ },
+ {
+  "name": "Copper Ore",
+  "type": "toggle",
+  "img": "images/items/materials/crafting_materials/Copper_Ore.png",
+  "codes": "copper_ore"
+ },
+ {
+  "name": "Crystalized Dew",
+  "type": "toggle",
+  "img": "images/items/materials/crafting_materials/Crystalized_Dew.png",
+  "codes": "crystalized_dew"
+ },
+ {
+  "name": "Flour",
+  "type": "toggle",
+  "img": "images/items/materials/crafting_materials/Flour.png",
+  "codes": "flour"
+ },
+ {
+  "name": "Grain",
+  "type": "toggle",
+  "img": "images/items/materials/crafting_materials/Grain.png",
+  "codes": "grain"
+ },
+ {
+  "name": "Herbs",
+  "type": "toggle",
+  "img": "images/items/materials/crafting_materials/Herbs.png",
+  "codes": "herbs"
+ },
+ {
+  "name": "Leather",
+  "type": "toggle",
+  "img": "images/items/materials/crafting_materials/Leather.png",
+  "codes": "leather"
+ },
+ {
+  "name": "Dye",
+  "type": "toggle",
+  "img": "images/items/materials/crafting_materials/Pigment.png",
+  "codes": "dye"
+ },
+ {
+  "name": "Plant_Fiber",
+  "type": "toggle",
+  "img": "images/items/materials/crafting_materials/Plant_Fiber.png",
+  "codes": "plant_fiber"
+ },
+ {
+  "name": "Pottery",
+  "type": "toggle",
+  "img": "images/items/materials/crafting_materials/Pottery.png",
+  "codes": "pottery"
+ },
+ {
+  "name": "Reeds",
+  "type": "toggle",
+  "img": "images/items/materials/crafting_materials/Reeds.png",
+  "codes": "reeds"
+ },
+ {
+  "name": "Resin",
+  "type": "toggle",
+  "img": "images/items/materials/crafting_materials/Resin.png",
+  "codes": "resin"
+ },
+ {
+  "name": "Scales",
+  "type": "toggle",
+  "img": "images/items/materials/crafting_materials/Scales.png",
+  "codes": "scales"
+ },
+ {
+  "name": "Stone",
+  "type": "toggle",
+  "img": "images/items/materials/crafting_materials/Stone.png",
+  "codes": "stone"
+ },
+ {
+  "name": "Waterskins",
+  "type": "toggle",
+  "img": "images/items/materials/crafting_materials/Waterskins.png",
+  "codes": "waterskins"
+ },
+ {
+  "name": "Coal",
+  "type": "toggle",
+  "img": "images/items/materials/fuel_exploration/Coal.png",
+  "codes": "coal"
+ },
+ {
+  "name": "Oil",
+  "type": "toggle",
+  "img": "images/items/materials/fuel_exploration/Oil.png",
+  "codes": "oil"
+ },
+ {
+  "name": "Purging_Fire",
+  "type": "toggle",
+  "img": "images/items/materials/fuel_exploration/Purging_Fire.png",
+  "codes": "purging_fire"
+ },
+ {
+  "name": "Sea_Marrow",
+  "type": "toggle",
+  "img": "images/items/materials/fuel_exploration/Sea_Marrow.png",
+  "codes": "sea_marrow"
+ },
+ {
+  "name": "Tools",
+  "type": "toggle",
+  "img": "images/items/materials/fuel_exploration/Tools.png",
+  "codes": "tools"
+ },
+ {
+  "name": "Wood",
+  "type": "toggle",
+  "img": "images/items/materials/fuel_exploration/Wood.png",
+  "codes": "wood"
+ },
+ {
+  "name": "Berries",
+  "type": "toggle",
+  "img": "images/items/materials/raw_food/Berries.png",
+  "codes": "berries"
+ },
+ {
+  "name": "Eggs",
+  "type": "toggle",
+  "img": "images/items/materials/raw_food/Eggs.png",
+  "codes": "eggs"
+ },
+ {
+  "name": "Fish",
+  "type": "toggle",
+  "img": "images/items/materials/raw_food/Fish.png",
+  "codes": "fish"
+ },
+ {
+  "name": "Insects",
+  "type": "toggle",
+  "img": "images/items/materials/raw_food/Insects.png",
+  "codes": "insects"
+ },
+ {
+  "name": "Meat",
+  "type": "toggle",
+  "img": "images/items/materials/raw_food/Meat.png",
+  "codes": "meat"
+ },
+ {
+  "name": "Mushrooms",
+  "type": "toggle",
+  "img": "images/items/materials/raw_food/Mushrooms.png",
+  "codes": "mushrooms"
+ },
+ {
+  "name": "Roots",
+  "type": "toggle",
+  "img": "images/items/materials/raw_food/Roots.png",
+  "codes": "roots"
+ },
+ {
+  "name": "Vegetables",
+  "type": "toggle",
+  "img": "images/items/materials/raw_food/Vegetables.png",
+  "codes": "vegetables"
+ },
+ {
+  "name": "Boots",
+  "type": "toggle",
+  "img": "images/items/materials/service_goods/Boots.png",
+  "codes": "boots"
+ },
+ {
+  "name": "Coats",
+  "type": "toggle",
+  "img": "images/items/materials/service_goods/Coats.png",
+  "codes": "coats"
+ },
+ {
+  "name": "Amber",
+  "type": "toggle",
+  "img": "images/items/materials/trade_goods/Amber.png",
+  "codes": "amber"
+ },
+ {
+  "name": "Ancient_Tablet",
+  "type": "toggle",
+  "img": "images/items/materials/trade_goods/Ancient_Tablet.png",
+  "codes": "ancient_tablet"
+ },
+ {
+  "name": "Pack of Building Materials",
+  "type": "toggle",
+  "img": "images/items/materials/trade_goods/Building_Materials.png",
+  "codes": "building_materials"
+ },
+ {
+  "name": "Pack of Crops",
+  "type": "toggle",
+  "img": "images/items/materials/trade_goods/Crops.png",
+  "codes": "crops"
+ },
+ {
+  "name": "Pack of Luxury Goods",
+  "type": "toggle",
+  "img": "images/items/materials/trade_goods/Luxury.png",
+  "codes": "luxury"
+ },
+ {
+  "name": "Pack of Provisions",
+  "type": "toggle",
+  "img": "images/items/materials/trade_goods/Provisions.png",
+  "codes": "provisions"
+ },
+ {
+  "name": "Pack of Trade Goods",
+  "type": "toggle",
+  "img": "images/items/materials/trade_goods/Trade_Goods.png",
+  "codes": "trade_goods"
+ },
+ {
+  "name": "Guardian Seal",
+  "type": "consumable",
+  "min_quantity": 0,
+  "initial_quantity": 0,
+  "max_quantity": 4,
+  "img": "images/items/hidden_seal.png",
+  "codes": "guardian_seal"
+ }
+]

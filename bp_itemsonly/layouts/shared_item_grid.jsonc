@@ -1,0 +1,31 @@
+{
+  // sets layouts for shadred items grids
+  // bigger example: https://github.com/Cyb3RGER/sm_ap_tracker/blob/main/layouts/items.json
+  "shared_item_grid": {
+    "type": "dock",
+    "content": [
+      {
+        "type": "layout",
+        "dock": "left",
+        "key": "resources"
+      },
+      {
+        "type": "layout",
+        "key": "buildings"
+      },
+      {
+        "type": "group",
+        "dock": "right",
+        "header": "Guardian Seals",
+        "content": {
+          "type": "itemgrid",
+          "item_margin": "5,5",
+          "item_size": "80,80",
+          "rows": [
+            ["guardian_seal"]
+          ]
+        }
+      }
+    ]
+  }
+}

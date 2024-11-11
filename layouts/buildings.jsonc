@@ -1,0 +1,26 @@
+{
+  // sets layouts for shadred items grids
+  // bigger example: https://github.com/Cyb3RGER/sm_ap_tracker/blob/main/layouts/items.json
+  "buildings": {
+    "type": "group",
+    "header": "Buildings",
+    "content": [
+      {
+        "type": "itemgrid",
+        "dock": "bottom",
+        "h_alignment": "left",
+        "item_margin": "5,5",
+        "item_size": "50,50",
+        "rows": [
+          ["fishing_hut", "foragers_camp", "herbalists_camp", "trappers_camp"],
+          ["apothecary", "bakery", "beanery", "butcher", "cellar", "clay_pit", "cookhouse", "foresters_hut", "furnace", "granary"],
+          ["greenhouse", "grill", "herb_garden", "homestead", "pantry", "plantation", "rain_mill", "ranch", "smallfarm", "smokehouse"],
+          ["advanced_rain_catcher", "alchemist_hut", "artisan", "brewery", "brick_oven", "brickyard", "cannery", "carpenter","clothier", "cobbler"],
+          ["cooperage", "distillery", "druid", "finesmith", "kiln", "leatherworks", "lumbermill", "manufactory", "press", "provisioner"],
+          ["scribe", "smelter", "smithy", "stamping_mill", "supplier", "tea_house", "tinctury", "tinkerer", "toolshop", "weaver", "workshop"],
+          ["bath_house", "clan_hall", "explorers_lodge", "forum", "guild_house", "market", "monastery", "tavern", "tea_doctor", "temple"]
+        ]
+      }
+    ]
+  }
+}
