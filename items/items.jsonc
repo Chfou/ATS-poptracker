@@ -140,10 +140,10 @@
   "codes": "ranch"
  },
  {
-  "name": "SmallFarm",
+  "name": "Small Farm",
   "type": "toggle",
   "img": "images/items/buildings/food_production/SmallFarm.png",
-  "codes": "smallfarm"
+  "codes": "small_farm"
  },
  {
   "name": "Smokehouse",
@@ -248,10 +248,10 @@
   "codes": "leatherworks"
  },
  {
-  "name": "Lumbermill",
+  "name": "Lumber Mill",
   "type": "toggle",
   "img": "images/items/buildings/industry/Lumbermill.png",
-  "codes": "lumbermill"
+  "codes": "lumber_mill"
  },
  {
   "name": "Manufactory",
@@ -428,7 +428,7 @@
   "codes": "planks"
  },
  {
-  "name": "Wildfire",
+  "name": "Wildfire Essence",
   "type": "toggle",
   "img": "images/items/materials/building_materials/Wildfire.png",
   "codes": "wildfire"

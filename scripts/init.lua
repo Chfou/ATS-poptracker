@@ -6,7 +6,7 @@ local variant = Tracker.ActiveVariantUID
 -- check variant info
 IS_ITEMS_ONLY = variant:find("itemsonly")
 
-print("-- Example Tracker --")
+print("-- ATS Tracker --")
 print("Loaded variant: ", variant)
 if ENABLE_DEBUG_LOG then
     print("Debug logging is enabled!")
@@ -41,6 +41,6 @@ Tracker:AddLayouts("layouts/tracker.jsonc")
 Tracker:AddLayouts("layouts/broadcast.jsonc")
 
 -- AutoTracking for Poptracker
---if PopVersion and PopVersion >= "0.18.0" then
---    ScriptHost:LoadScript("scripts/autotracking.lua")
---end
+if PopVersion and PopVersion >= "0.18.0" then
+    ScriptHost:LoadScript("scripts/autotracking.lua")
+end

@@ -11,12 +11,12 @@
         "h_alignment": "left",
         "item_margin": "5,5",
         "rows": [
-          ["coal", "oil", "sea_marrow", "wood", "tools", "purging fire"],
+          ["coal", "oil", "sea_marrow", "tools", "purging fire"],
           ["berries", "eggs", "fish", "insects", "meat", "mushrooms", "roots", "vegetables"],
-          ["planks", "fabric", "bricks"],
+          ["planks", "fabric", "bricks", "parts", "pipes", "wildfire"],
           ["biscuits", "jerky", "paste", "pickled_goods", "pie", "porridge", "skewers"],
           ["algae",  "clay", "copper_ore", "grain", "herbs",  "plant_fiber", "reeds", "resin", "scales", "stone"],
-          ["barrels", "copper_bar", "crystalized_dew", "dye", "flour",  "leather", "waterskins"],
+          ["barrels", "copper_bar", "crystalized_dew", "dye", "flour",  "leather", "pottery", "waterskins"],
           ["coats", "boots"],
           ["ale", "incense", "scrolls", "tea", "training_gear", "wine"],
           ["amber", "ancient_tablet", "building_materials", "crops", "luxury", "provisions", "trade_goods"]
