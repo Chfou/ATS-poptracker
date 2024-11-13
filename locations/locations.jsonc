@@ -1,57 +1,3219 @@
 [
   {
-    "name": "Example Parent",
+    "name": "Species",
+    "chest_unopened_img": "/images/items/impatience.png",
+    "chest_opened_img": "/images/items/reputation.png",
     "children": [
       {
-        "name": "Example Location 1",
-        "access_rules": [
-          //read as: progressive_2 or toggle
-          "progressive_2",
-          "toggle"
-        ],
-        "sections": [
+        "name": "Humans",
+        "sections" : [
           {
-            "name": "Example Section 1",
-            "item_count": 1
+            "name": "First Reputation through Resolve",
+            "access_rules": ["$porridgebiscuitspiecoats,$planks,$bricks"]
           },
           {
-            "name": "Example Section 2",
-            "item_count": 3
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "map1",
-            "x": 1750,
-            "y": 700
+            "name": "50 Resolve",
+            "access_rules": ["$porridgebiscuitspie,$coats,$ale,$incense,$planks,$fabric,$bricks,$purging_fire"]
           },
           {
-            "map": "map2",
-            "x": 1000,
-            "y": 500
+            "name": "Have 20 Villagers in fully upgraded Housing",
+            "access_rules": ["$planks,$bricks,$fabric,$complexfood,$ambertools,$services,$purging_fire,$building_materials,$crops"]
           }
         ]
       },
       {
-        "name": "Example Location 2",
-        "access_rules": [
-          //read as: progressive_toggle_2 and has more than 4 consumable
-          "progressive_toggle_2, $has_more_then_n_consumable|4"
-        ],
-        "sections": [
+        "name": "Beavers",
+        "sections" : [
           {
-            "name": "Example Section 1",
-            "item_count": 1
+            "name": "First Reputation through Resolve",
+            "access_rules": ["$alescrollswine,$planks,$bricks,$fabric"]
+          },
+          {
+            "name": "50 Resolve",
+            "access_rules": ["$biscuitspickled_goods,$coats,$ale,$scrolls,$wine,$planks,$fabric,$bricks,$purging_fire"]
+          },
+          {
+            "name": "Have 20 Villagers in fully upgraded Housing",
+            "access_rules": ["$planks,$bricks,$fabric,$complexfood,$ambertools,$services,$purging_fire,$building_materials,$ambertrade_goods"]
           }
-        ],
-        "map_locations": [
+        ]
+      },
+      {
+        "name": "Lizards",
+        "sections" : [
           {
-            "map": "map1",
-            "x": 1500,
-            "y": 400
+              "name": "First Reputation through Resolve",
+            "access_rules": [""]
+          },
+          {
+            "name": "50 Resolve",
+            "access_rules": ["$jerkyskewerspie,$pickled_goods,$boots,$training_gear,$planks,$fabric,$bricks,$purging_fire"]
+          },
+          {
+            "name": "Have 20 Villagers in fully upgraded Housing",
+            "access_rules": ["$planks,$bricks,$fabric,$complexfood,$ambertools,$services,$purging_fire,$building_materials,$jerkyskewers"]
+          }
+        ]
+      },
+      {
+        "name": "Harpies",
+        "sections" : [
+          {
+            "name": "First Reputation through Resolve",
+            "access_rules": [""]
+          },
+          {
+            "name": "50 Resolve",
+            "access_rules": ["$jerky,$paste,$coats,$boots,$scrolls,$tea,$planks,$fabric,$bricks,$purging_fire"]
+          },
+          {
+            "name": "Have 20 Villagers in fully upgraded Housing",
+            "access_rules": ["$planks,$bricks,$fabric,$complexfood,$ambertools,$services,$purging_fire,$building_materials,$dye"]
+          }
+        ]
+      },
+      {
+        "name": "Foxes",
+        "sections" : [
+          {
+            "name": "First Reputation through Resolve",
+            "access_rules": [""]
+          },
+          {
+            "name": "50 Resolve",
+            "access_rules": ["$porridgeskewerspickled_goods,$boots,$incense,$tea,$crystalized_dew,$planks,$fabric,$bricks,$purging_fire"]
+          },
+          {
+            "name": "Have 20 Villagers in fully upgraded Housing",
+            "access_rules": ["$planks,$bricks,$fabric,$complexfood,$ambertools,$services,$purging_fire,$building_materials,$resin,$crystalized_dew"]
+          }
+        ]
+      },
+      {
+        "name": "Frogs",
+        "sections" : [
+          {
+              "name": "First Reputation through Resolve",
+            "access_rules": ["$bricks"]
+          },
+          {
+            "name": "50 Resolve",
+            "access_rules": ["$pastebiscuitspie,$boots,$incense,$wine,$training_gear,$planks,$fabric,$bricks,$purging_fire"]
+          },
+          {
+            "name": "Have 20 Villagers in fully upgraded Housing",
+            "access_rules": ["$planks,$bricks,$fabric,$complexfood,$ambertools,$services,$purging_fire,$building_materials"]
           }
         ]
       }
     ]
-  }
+  },
+  {
+    "name": "SpeciesChecks",
+    "chest_unopened_img": "/images/items/impatience.png",
+    "chest_opened_img": "/images/items/reputation.png",
+    "children": [
+      {
+        "name": "Humans",
+        "map_locations": [
+          {
+            "map": "species",
+            "x": 263,
+            "y": 249
+          }
+        ],
+        "sections" : [
+          {
+            "name": "Humans - First Reputation through Resolve",
+            "ref": "Species/Humans/First Reputation through Resolve"
+          }
+        ]
+      },
+      {
+        "name": "Humans",
+        "map_locations": [
+          {
+            "map": "species",
+            "x": 263,
+            "y": 441
+          }
+        ],
+        "sections" : [
+          {
+            "name": "Humans - 50 Resolve",
+            "ref": "Species/Humans/50 Resolve"
+          }
+        ]
+      },
+      {
+        "name": "Humans",
+        "map_locations": [
+          {
+            "map": "species",
+            "x": 263,
+            "y": 633
+          }
+        ],
+        "sections" : [
+          {
+            "name": "Humans - Have 20 Villagers in fully upgraded Housing",
+            "ref": "Species/Humans/Have 20 Villagers in fully upgraded Housing"
+          }
+        ]
+      },
+      {
+        "name": "Beavers",
+        "map_locations": [
+          {
+            "map": "species",
+            "x": 439,
+            "y": 249
+          }
+        ],
+        "sections" : [
+          {
+            "name": "Beavers - First Reputation through Resolve",
+            "ref": "Species/Beavers/First Reputation through Resolve"
+          }
+        ]
+      },
+      {
+        "name": "Beavers",
+        "map_locations": [
+          {
+            "map": "species",
+            "x": 439,
+            "y": 441
+          }
+        ],
+        "sections" : [
+          {
+            "name": "Beavers - 50 Resolve",
+            "ref": "Species/Beavers/50 Resolve"
+          }
+        ]
+      },
+      {
+        "name": "Beavers",
+        "map_locations": [
+          {
+            "map": "species",
+            "x": 439,
+            "y": 633
+          }
+        ],
+        "sections" : [
+          {
+            "name": "Beavers - Have 20 Villagers in fully upgraded Housing",
+            "ref": "Species/Beavers/Have 20 Villagers in fully upgraded Housing"
+          }
+        ]
+      },
+      {
+        "name": "Lizards",
+        "map_locations": [
+          {
+            "map": "species",
+            "x": 613,
+            "y": 249
+          }
+        ],
+        "sections" : [
+          {
+            "name": "Lizards - First Reputation through Resolve",
+            "ref": "Species/Lizards/First Reputation through Resolve"
+          }
+        ]
+      },
+      {
+        "name": "Lizards",
+        "map_locations": [
+          {
+            "map": "species",
+            "x": 613,
+            "y": 441
+          }
+        ],
+        "sections" : [
+          {
+            "name": "Lizards - 50 Resolve",
+            "ref": "Species/Lizards/50 Resolve"
+          }
+        ]
+      },
+      {
+        "name": "Lizards",
+        "map_locations": [
+          {
+            "map": "species",
+            "x": 613,
+            "y": 633
+          }
+        ],
+        "sections" : [
+          {
+            "name": "Lizards - Have 20 Villagers in fully upgraded Housing",
+            "ref": "Species/Lizards/Have 20 Villagers in fully upgraded Housing"
+          }
+        ]
+      },
+      {
+        "name": "Harpies",
+        "map_locations": [
+          {
+            "map": "species",
+            "x": 788,
+            "y": 249
+          }
+        ],
+        "sections" : [
+          {
+            "name": "Harpies - First Reputation through Resolve",
+            "ref": "Species/Harpies/First Reputation through Resolve"
+          }
+        ]
+      },
+      {
+        "name": "Harpies",
+        "map_locations": [
+          {
+            "map": "species",
+            "x": 788,
+            "y": 441
+          }
+        ],
+        "sections" : [
+          {
+            "name": "Harpies - 50 Resolve",
+            "ref": "Species/Harpies/50 Resolve"
+          }
+        ]
+      },
+      {
+        "name": "Harpies",
+        "map_locations": [
+          {
+            "map": "species",
+            "x": 788,
+            "y": 633
+          }
+        ],
+        "sections" : [
+          {
+            "name": "Harpies - Have 20 Villagers in fully upgraded Housing",
+            "ref": "Species/Harpies/Have 20 Villagers in fully upgraded Housing"
+          }
+        ]
+      },{
+        "name": "Foxes",
+        "map_locations": [
+          {
+            "map": "species",
+            "x": 963,
+            "y": 249
+          }
+        ],
+        "sections" : [
+          {
+            "name": "Foxes - First Reputation through Resolve",
+            "ref": "Species/Foxes/First Reputation through Resolve"
+          }
+        ]
+      },
+      {
+        "name": "Foxes",
+        "map_locations": [
+          {
+            "map": "species",
+            "x": 963,
+            "y": 441
+          }
+        ],
+        "sections" : [
+          {
+            "name": "Foxes - 50 Resolve",
+            "ref": "Species/Foxes/50 Resolve"
+          }
+        ]
+      },
+      {
+        "name": "Foxes",
+        "map_locations": [
+          {
+            "map": "species",
+            "x": 963,
+            "y": 633
+          }
+        ],
+        "sections" : [
+          {
+            "name": "Foxes - Have 20 Villagers in fully upgraded Housing",
+            "ref": "Species/Foxes/Have 20 Villagers in fully upgraded Housing"
+          }
+        ]
+      },
+      {
+        "name": "Frogs",
+        "map_locations": [
+          {
+            "map": "species",
+            "x": 1138,
+            "y": 249
+          }
+        ],
+        "sections" : [
+          {
+            "name": "Frogs - First Reputation through Resolve",
+            "ref": "Species/Frogs/First Reputation through Resolve"
+          }
+        ]
+      },
+      {
+        "name": "Frogs",
+        "map_locations": [
+          {
+            "map": "species",
+            "x": 1138,
+            "y": 441
+          }
+        ],
+        "sections" : [
+          {
+            "name": "Frogs - 50 Resolve",
+            "ref": "Species/Frogs/50 Resolve"
+          }
+        ]
+      },
+      {
+        "name": "Frogs",
+        "map_locations": [
+          {
+            "map": "species",
+            "x": 1138,
+            "y": 633
+          }
+        ],
+        "sections" : [
+          {
+            "name": "Frogs - Have 20 Villagers in fully upgraded Housing",
+            "ref": "Species/Frogs/Have 20 Villagers in fully upgraded Housing"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Royal Woodlands",
+    "chest_unopened_img": "/images/items/impatience.png",
+    "chest_opened_img": "/images/items/reputation.png",
+    "children": [
+      {
+        "name": "1st Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 193,
+            "y": 935
+          }
+        ],
+          "sections": [
+          {
+            "name": "Royal Woodlands - 1st Reputation",
+            "access_rules": [""]
+          }
+        ]
+      },
+      {
+        "name": "2nd Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 292,
+            "y": 935
+          }
+        ],
+          "sections": [
+          {
+            "name": "Royal Woodlands - 2nd Reputation",
+            "access_rules": ["$rawfood"]
+          }
+        ]
+      },
+      {
+        "name": "3rd Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 391,
+            "y": 935
+          }
+        ],
+          "sections": [
+          {
+            "name": "Royal Woodlands - 3rd Reputation",
+            "access_rules": ["$rawfood"]
+          }
+        ]
+      },
+      {
+        "name": "4th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 490,
+            "y": 935
+          }
+        ],
+          "sections": [
+          {
+            "name": "Royal Woodlands - 4th Reputation",
+            "access_rules": ["$planksbricksfabric,$rawfood"]
+          }
+        ]
+      },
+      {
+        "name": "5th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 589,
+            "y": 935
+          }
+        ],
+          "sections": [
+          {
+            "name": "Royal Woodlands - 5th Reputation",
+            "access_rules": ["$planksbricksfabric,$rawfood,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "6th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 688,
+            "y": 935
+          }
+        ],
+          "sections": [
+          {
+            "name": "Royal Woodlands - 6th Reputation",
+            "access_rules": ["$planksbricksfabric,$complexfood,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "7th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 787,
+            "y": 935
+          }
+        ],
+          "sections": [
+          {
+            "name": "Royal Woodlands - 7th Reputation",
+            "access_rules": ["$planksbricksfabric,$complexfood,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "8th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 886,
+            "y": 935
+          }
+        ],
+          "sections": [
+          {
+            "name": "Royal Woodlands - 8th Reputation",
+            "access_rules": ["$planks,$bricksfabric,$complexfood,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "9th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 985,
+            "y": 935
+          }
+        ],
+          "sections": [
+          {
+            "name": "Royal Woodlands - 9th Reputation",
+            "access_rules": ["$planks,$bricksfabric,$complexfood,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "10th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 1084,
+            "y": 935
+          }
+        ],
+          "sections": [
+          {
+            "name": "Royal Woodlands - 10th Reputation",
+            "access_rules": ["$planks,$bricksfabric,$complexfood,$ambertoolsservices,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "11th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 1183,
+            "y": 935
+          }
+        ],
+          "sections": [
+          {
+            "name": "Royal Woodlands - 11th Reputation",
+            "access_rules": ["$planks,$bricksfabric,$complexfood,$ambertoolsservices,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "12th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 1282,
+            "y": 935
+          }
+        ],
+          "sections": [
+          {
+            "name": "Royal Woodlands - 12th Reputation",
+            "access_rules": ["$planks,$bricks,$fabric,$complexfood,$ambertoolsservices,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "13th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 1381,
+            "y": 935
+          }
+        ],
+          "sections": [
+          {
+            "name": "Royal Woodlands - 13th Reputation",
+            "access_rules": ["$planks,$bricks,$fabric,$complexfood,$ambertoolsservices,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "14th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 1480,
+            "y": 935
+          }
+        ],
+          "sections": [
+          {
+            "name": "Royal Woodlands - 14th Reputation",
+            "access_rules": ["$planks,$bricks,$fabric,$complexfood,$ambertools,$services,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "15th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 1579,
+            "y": 935
+          }
+        ],
+          "sections": [
+          {
+            "name": "Royal Woodlands - 15th Reputation",
+            "access_rules": ["$planks,$bricks,$fabric,$complexfood,$ambertools,$services,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "16th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 1678,
+            "y": 935
+          }
+        ],
+          "sections": [
+          {
+            "name": "Royal Woodlands - 16th Reputation",
+            "access_rules": ["$planks,$bricks,$fabric,$complexfood,$ambertools,$services,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "17th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 1777,
+            "y": 935
+          }
+        ],
+          "sections": [
+          {
+            "name": "Royal Woodlands - 17th Reputation",
+            "access_rules": ["$planks,$bricks,$fabric,$complexfood,$ambertools,$services,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "Victory",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 1876,
+            "y": 935
+          }
+        ],
+          "sections": [
+          {
+            "name": "Royal Woodlands - Victory",
+            "access_rules": ["$planks,$bricks,$fabric,$complexfood,$ambertools,$services,$purging_fire"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Coral Forest",
+    "chest_unopened_img": "/images/items/impatience.png",
+    "chest_opened_img": "/images/items/reputation.png",
+    "children": [
+      {
+        "name": "1st Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 193,
+            "y": 500
+          }
+        ],
+          "sections": [
+          {
+            "name": "Coral Forest - 1st Reputation",
+            "access_rules": [""]
+          }
+        ]
+      },
+      {
+        "name": "2nd Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 292,
+            "y": 500
+          }
+        ],
+          "sections": [
+          {
+            "name": "Coral Forest - 2nd Reputation",
+            "access_rules": ["$rawfood"]
+          }
+        ]
+      },
+      {
+        "name": "3rd Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 391,
+            "y": 500
+          }
+        ],
+          "sections": [
+          {
+            "name": "Coral Forest - 3rd Reputation",
+            "access_rules": ["$rawfood"]
+          }
+        ]
+      },
+      {
+        "name": "4th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 490,
+            "y": 500
+          }
+        ],
+          "sections": [
+          {
+            "name": "Coral Forest - 4th Reputation",
+            "access_rules": ["$planksbricksfabric,$rawfood"]
+          }
+        ]
+      },
+      {
+        "name": "5th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 589,
+            "y": 500
+          }
+        ],
+          "sections": [
+          {
+            "name": "Coral Forest - 5th Reputation",
+            "access_rules": ["$planksbricksfabric,$rawfood,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "6th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 688,
+            "y": 500
+          }
+        ],
+          "sections": [
+          {
+            "name": "Coral Forest - 6th Reputation",
+            "access_rules": ["$planksbricksfabric,$complexfood,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "7th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 787,
+            "y": 500
+          }
+        ],
+          "sections": [
+          {
+            "name": "Coral Forest - 7th Reputation",
+            "access_rules": ["$planksbricksfabric,$complexfood,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "8th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 886,
+            "y": 500
+          }
+        ],
+          "sections": [
+          {
+            "name": "Coral Forest - 8th Reputation",
+            "access_rules": ["$planks,$bricksfabric,$complexfood,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "9th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 985,
+            "y": 500
+          }
+        ],
+          "sections": [
+          {
+            "name": "Coral Forest - 9th Reputation",
+            "access_rules": ["$planks,$bricksfabric,$complexfood,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "10th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 1084,
+            "y": 500
+          }
+        ],
+          "sections": [
+          {
+            "name": "Coral Forest - 10th Reputation",
+            "access_rules": ["$planks,$bricksfabric,$complexfood,$ambertoolsservices,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "11th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 1183,
+            "y": 500
+          }
+        ],
+          "sections": [
+          {
+            "name": "Coral Forest - 11th Reputation",
+            "access_rules": ["$planks,$bricksfabric,$complexfood,$ambertoolsservices,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "12th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 1282,
+            "y": 500
+          }
+        ],
+          "sections": [
+          {
+            "name": "Coral Forest - 12th Reputation",
+            "access_rules": ["$planks,$bricks,$fabric,$complexfood,$ambertoolsservices,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "13th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 1381,
+            "y": 500
+          }
+        ],
+          "sections": [
+          {
+            "name": "Coral Forest - 13th Reputation",
+            "access_rules": ["$planks,$bricks,$fabric,$complexfood,$ambertoolsservices,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "14th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 1480,
+            "y": 500
+          }
+        ],
+          "sections": [
+          {
+            "name": "Coral Forest - 14th Reputation",
+            "access_rules": ["$planks,$bricks,$fabric,$complexfood,$ambertools,$services,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "15th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 1579,
+            "y": 500
+          }
+        ],
+          "sections": [
+          {
+            "name": "Coral Forest - 15th Reputation",
+            "access_rules": ["$planks,$bricks,$fabric,$complexfood,$ambertools,$services,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "16th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 1678,
+            "y": 500
+          }
+        ],
+          "sections": [
+          {
+            "name": "Coral Forest - 16th Reputation",
+            "access_rules": ["$planks,$bricks,$fabric,$complexfood,$ambertools,$services,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "17th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 1777,
+            "y": 500
+          }
+        ],
+          "sections": [
+          {
+            "name": "Coral Forest - 17th Reputation",
+            "access_rules": ["$planks,$bricks,$fabric,$complexfood,$ambertools,$services,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "Victory",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 1876,
+            "y": 500
+          }
+        ],
+          "sections": [
+          {
+            "name": "Coral Forest - Victory",
+            "access_rules": ["$planks,$bricks,$fabric,$complexfood,$ambertools,$services,$purging_fire"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "The Marshlands",
+    "chest_unopened_img": "/images/items/impatience.png",
+    "chest_opened_img": "/images/items/reputation.png",
+    "children": [
+      {
+        "name": "1st Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 193,
+            "y": 790
+          }
+        ],
+          "sections": [
+          {
+            "name": "The Marshlands - 1st Reputation",
+            "access_rules": [""]
+          }
+        ]
+      },
+      {
+        "name": "2nd Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 292,
+            "y": 790
+          }
+        ],
+          "sections": [
+          {
+            "name": "The Marshlands - 2nd Reputation",
+            "access_rules": ["$rawfood"]
+          }
+        ]
+      },
+      {
+        "name": "3rd Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 391,            
+            "y": 790
+          }
+        ],
+          "sections": [
+          {
+            "name": "The Marshlands - 3rd Reputation",
+            "access_rules": ["$rawfood"]
+          }
+        ]
+      },
+      {
+        "name": "4th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 490,            
+            "y": 790
+          }
+        ],
+          "sections": [
+          {
+            "name": "The Marshlands - 4th Reputation",
+            "access_rules": ["$planksbricksfabric,$rawfood"]
+          }
+        ]
+      },
+      {
+        "name": "5th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 589,            
+            "y": 790
+          }
+        ],
+          "sections": [
+          {
+            "name": "The Marshlands - 5th Reputation",
+            "access_rules": ["$planksbricksfabric,$rawfood,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "6th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 688,            
+            "y": 790
+          }
+        ],
+          "sections": [
+          {
+            "name": "The Marshlands - 6th Reputation",
+            "access_rules": ["$planksbricksfabric,$complexfood,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "7th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 787,            
+            "y": 790
+          }
+        ],
+          "sections": [
+          {
+            "name": "The Marshlands - 7th Reputation",
+            "access_rules": ["$planksbricksfabric,$complexfood,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "8th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 886,            
+            "y": 790
+          }
+        ],
+          "sections": [
+          {
+            "name": "The Marshlands - 8th Reputation",
+            "access_rules": ["$planks,$bricksfabric,$complexfood,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "9th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 985,            
+            "y": 790
+          }
+        ],
+          "sections": [
+          {
+            "name": "The Marshlands - 9th Reputation",
+            "access_rules": ["$planks,$bricksfabric,$complexfood,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "10th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 1084,
+            "y": 790
+          }
+        ],
+          "sections": [
+          {
+            "name": "The Marshlands - 10th Reputation",
+            "access_rules": ["$planks,$bricksfabric,$complexfood,$ambertoolsservices,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "11th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 1183,
+            "y": 790
+          }
+        ],
+          "sections": [
+          {
+            "name": "The Marshlands - 11th Reputation",
+            "access_rules": ["$planks,$bricksfabric,$complexfood,$ambertoolsservices,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "12th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 1282,
+            "y": 790
+          }
+        ],
+          "sections": [
+          {
+            "name": "The Marshlands - 12th Reputation",
+            "access_rules": ["$planks,$bricks,$fabric,$complexfood,$ambertoolsservices,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "13th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 1381,
+            "y": 790
+          }
+        ],
+          "sections": [
+          {
+            "name": "The Marshlands - 13th Reputation",
+            "access_rules": ["$planks,$bricks,$fabric,$complexfood,$ambertoolsservices,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "14th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 1480,
+            "y": 790
+          }
+        ],
+          "sections": [
+          {
+            "name": "The Marshlands - 14th Reputation",
+            "access_rules": ["$planks,$bricks,$fabric,$complexfood,$ambertools,$services,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "15th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 1579,
+            "y": 790
+          }
+        ],
+          "sections": [
+          {
+            "name": "The Marshlands - 15th Reputation",
+            "access_rules": ["$planks,$bricks,$fabric,$complexfood,$ambertools,$services,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "16th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 1678,
+            "y": 790
+          }
+        ],
+          "sections": [
+          {
+            "name": "The Marshlands - 16th Reputation",
+            "access_rules": ["$planks,$bricks,$fabric,$complexfood,$ambertools,$services,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "17th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 1777,
+            "y": 790
+          }
+        ],
+          "sections": [
+          {
+            "name": "The Marshlands - 17th Reputation",
+            "access_rules": ["$planks,$bricks,$fabric,$complexfood,$ambertools,$services,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "Victory",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 1876,
+            "y": 790
+          }
+        ],
+          "sections": [
+          {
+            "name": "The Marshlands - Victory",
+            "access_rules": ["$planks,$bricks,$fabric,$complexfood,$ambertools,$services,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "Biome",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 1975,
+            "y": 790
+          }
+        ],
+          "sections": [
+          {
+            "name": "The Marshlands - Harvest from an Ancient Proto Wheat",
+            "access_rules": ["$planks,$bricks,$fabric"]
+          },
+          {
+            "name": "The Marshlands - Harvest from a Dead Leviathan",
+            "access_rules": ["$planks,$bricks,$fabric"]
+          },
+          {
+            "name": "The Marshlands - Harvest from a Giant Proto Fungus",
+            "access_rules": ["$planks,$bricks,$fabric"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Scarlet Orchard",
+    "chest_unopened_img": "/images/items/impatience.png",
+    "chest_opened_img": "/images/items/reputation.png",
+    "children": [
+      {
+        "name": "1st Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 193,
+            "y": 1080
+          }
+        ],
+          "sections": [
+          {
+            "name": "Scarlet Orchard - 1st Reputation",
+            "access_rules": [""]
+          }
+        ]
+      },
+      {
+        "name": "2nd Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 292,
+            "y": 1080
+          }
+        ],
+          "sections": [
+          {
+            "name": "Scarlet Orchard - 2nd Reputation",
+            "access_rules": ["$rawfood"]
+          }
+        ]
+      },
+      {
+        "name": "3rd Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 391,
+            "y": 1080
+          }
+        ],
+          "sections": [
+          {
+            "name": "Scarlet Orchard - 3rd Reputation",
+            "access_rules": ["$rawfood"]
+          }
+        ]
+      },
+      {
+        "name": "4th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 490,
+            "y": 1080
+          }
+        ],
+          "sections": [
+          {
+            "name": "Scarlet Orchard - 4th Reputation",
+            "access_rules": ["$planksbricksfabric,$rawfood"]
+          }
+        ]
+      },
+      {
+        "name": "5th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 589,
+            "y": 1080
+          }
+        ],
+          "sections": [
+          {
+            "name": "Scarlet Orchard - 5th Reputation",
+            "access_rules": ["$planksbricksfabric,$rawfood,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "6th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 688,
+            "y": 1080
+          }
+        ],
+          "sections": [
+          {
+            "name": "Scarlet Orchard - 6th Reputation",
+            "access_rules": ["$planksbricksfabric,$complexfood,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "7th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 787,
+            "y": 1080
+          }
+        ],
+          "sections": [
+          {
+            "name": "Scarlet Orchard - 7th Reputation",
+            "access_rules": ["$planksbricksfabric,$complexfood,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "8th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 886,
+            "y": 1080
+          }
+        ],
+          "sections": [
+          {
+            "name": "Scarlet Orchard - 8th Reputation",
+            "access_rules": ["$planks,$bricksfabric,$complexfood,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "9th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 985,
+            "y": 1080
+          }
+        ],
+          "sections": [
+          {
+            "name": "Scarlet Orchard - 9th Reputation",
+            "access_rules": ["$planks,$bricksfabric,$complexfood,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "10th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 1084,
+            "y": 1080
+          }
+        ],
+          "sections": [
+          {
+            "name": "Scarlet Orchard - 10th Reputation",
+            "access_rules": ["$planks,$bricksfabric,$complexfood,$ambertoolsservices,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "11th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 1183,
+            "y": 1080
+          }
+        ],
+          "sections": [
+          {
+            "name": "Scarlet Orchard - 11th Reputation",
+            "access_rules": ["$planks,$bricksfabric,$complexfood,$ambertoolsservices,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "12th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 1282,
+            "y": 1080
+          }
+        ],
+          "sections": [
+          {
+            "name": "Scarlet Orchard - 12th Reputation",
+            "access_rules": ["$planks,$bricks,$fabric,$complexfood,$ambertoolsservices,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "13th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 1381,
+            "y": 1080
+          }
+        ],
+          "sections": [
+          {
+            "name": "Scarlet Orchard - 13th Reputation",
+            "access_rules": ["$planks,$bricks,$fabric,$complexfood,$ambertoolsservices,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "14th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 1480,
+            "y": 1080
+          }
+        ],
+          "sections": [
+          {
+            "name": "Scarlet Orchard - 14th Reputation",
+            "access_rules": ["$planks,$bricks,$fabric,$complexfood,$ambertools,$services,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "15th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 1579,
+            "y": 1080
+          }
+        ],
+          "sections": [
+          {
+            "name": "Scarlet Orchard - 15th Reputation",
+            "access_rules": ["$planks,$bricks,$fabric,$complexfood,$ambertools,$services,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "16th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 1678,
+            "y": 1080
+          }
+        ],
+          "sections": [
+          {
+            "name": "Scarlet Orchard - 16th Reputation",
+            "access_rules": ["$planks,$bricks,$fabric,$complexfood,$ambertools,$services,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "17th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 1777,
+            "y": 1080
+          }
+        ],
+          "sections": [
+          {
+            "name": "Scarlet Orchard - 17th Reputation",
+            "access_rules": ["$planks,$bricks,$fabric,$complexfood,$ambertools,$services,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "Victory",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 1876,
+            "y": 1080
+          }
+        ],
+          "sections": [
+          {
+            "name": "Scarlet Orchard - Victory",
+            "access_rules": ["$planks,$bricks,$fabric,$complexfood,$ambertools,$services,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "Biome",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 1975,
+            "y": 1080
+          }
+        ],
+          "sections": [
+          {
+            "name": "Scarlet Orchard - Reconstruct the Sealed Spider",
+            "access_rules": ["$planks,$fabric,$bricks,$eggsmeatrootsberriesmushroomsinsects,$incensescrollstearesin,$coaloilsea_marrowplanks,$stonecopper_bardyebarrelsincense,$toolspartspipes"]
+          },
+          {
+            "name": "Scarlet Orchard - Reconstruct the Sea Snake",
+            "access_rules": ["$planks,$fabric,$bricks,$eggsmeatrootsberriesmushroomsinsects,$incensescrollstearesin,$coaloilsea_marrowplanks,$stonecopper_bardyebarrelsincense,$toolspartspipes"]
+          },
+          {
+            "name": "Scarlet Orchard - Reconstruct the Smoldering Scorpion",
+            "access_rules": ["$planks,$fabric,$bricks,$eggsmeatrootsberriesmushroomsinsects,$incensescrollstearesin,$coaloilsea_marrowplanks,$stonecopper_bardyebarrelsincense,$toolspartspipes"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Cursed Royal Woodlands",
+    "chest_unopened_img": "/images/items/impatience.png",
+    "chest_opened_img": "/images/items/reputation.png",
+    "children": [
+      {
+        "name": "1st Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 193,
+            "y": 655
+          }
+        ],
+          "sections": [
+          {
+            "name": "Cursed Royal Woodlands - 1st Reputation",
+            "access_rules": [""]
+          }
+        ]
+      },
+      {
+        "name": "2nd Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 292,
+            "y": 655
+          }
+        ],
+          "sections": [
+          {
+            "name": "Cursed Royal Woodlands - 2nd Reputation",
+            "access_rules": ["$rawfood"]
+          }
+        ]
+      },
+      {
+        "name": "3rd Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 391,
+            "y": 655
+          }
+        ],
+          "sections": [
+          {
+            "name": "Cursed Royal Woodlands - 3rd Reputation",
+            "access_rules": ["$rawfood"]
+          }
+        ]
+      },
+      {
+        "name": "4th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 490,
+            "y": 655
+          }
+        ],
+          "sections": [
+          {
+            "name": "Cursed Royal Woodlands - 4th Reputation",
+            "access_rules": ["$planksbricksfabric,$rawfood"]
+          }
+        ]
+      },
+      {
+        "name": "5th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 589,
+            "y": 655
+          }
+        ],
+          "sections": [
+          {
+            "name": "Cursed Royal Woodlands - 5th Reputation",
+            "access_rules": ["$planksbricksfabric,$rawfood,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "6th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 688,
+            "y": 655
+          }
+        ],
+          "sections": [
+          {
+            "name": "Cursed Royal Woodlands - 6th Reputation",
+            "access_rules": ["$planksbricksfabric,$complexfood,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "7th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 787,
+            "y": 655
+          }
+        ],
+          "sections": [
+          {
+            "name": "Cursed Royal Woodlands - 7th Reputation",
+            "access_rules": ["$planksbricksfabric,$complexfood,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "8th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 886,
+            "y": 655
+          }
+        ],
+          "sections": [
+          {
+            "name": "Cursed Royal Woodlands - 8th Reputation",
+            "access_rules": ["$planks,$bricksfabric,$complexfood,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "9th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 985,
+            "y": 655
+          }
+        ],
+          "sections": [
+          {
+            "name": "Cursed Royal Woodlands - 9th Reputation",
+            "access_rules": ["$planks,$bricksfabric,$complexfood,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "10th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 1084,
+            "y": 655
+          }
+        ],
+          "sections": [
+          {
+            "name": "Cursed Royal Woodlands - 10th Reputation",
+            "access_rules": ["$planks,$bricksfabric,$complexfood,$ambertoolsservices,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "11th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 1183,
+            "y": 655
+          }
+        ],
+          "sections": [
+          {
+            "name": "Cursed Royal Woodlands - 11th Reputation",
+            "access_rules": ["$planks,$bricksfabric,$complexfood,$ambertoolsservices,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "12th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 1282,
+            "y": 655
+          }
+        ],
+          "sections": [
+          {
+            "name": "Cursed Royal Woodlands - 12th Reputation",
+            "access_rules": ["$planks,$bricks,$fabric,$complexfood,$ambertoolsservices,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "13th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 1381,
+            "y": 655
+          }
+        ],
+          "sections": [
+          {
+            "name": "Cursed Royal Woodlands - 13th Reputation",
+            "access_rules": ["$planks,$bricks,$fabric,$complexfood,$ambertoolsservices,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "14th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 1480,
+            "y": 655
+          }
+        ],
+          "sections": [
+          {
+            "name": "Cursed Royal Woodlands - 14th Reputation",
+            "access_rules": ["$planks,$bricks,$fabric,$complexfood,$ambertools,$services,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "15th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 1579,
+            "y": 655
+          }
+        ],
+          "sections": [
+          {
+            "name": "Cursed Royal Woodlands - 15th Reputation",
+            "access_rules": ["$planks,$bricks,$fabric,$complexfood,$ambertools,$services,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "16th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 1678,
+            "y": 655
+          }
+        ],
+          "sections": [
+          {
+            "name": "Cursed Royal Woodlands - 16th Reputation",
+            "access_rules": ["$planks,$bricks,$fabric,$complexfood,$ambertools,$services,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "17th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 1777,
+            "y": 655
+          }
+        ],
+          "sections": [
+          {
+            "name": "Cursed Royal Woodlands - 17th Reputation",
+            "access_rules": ["$planks,$bricks,$fabric,$complexfood,$ambertools,$services,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "Victory",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 1876,
+            "y": 655
+          }
+        ],
+          "sections": [
+          {
+            "name": "Cursed Royal Woodlands - Victory",
+            "access_rules": ["$planks,$bricks,$fabric,$complexfood,$ambertools,$services,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "Biome",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 1975,
+            "y": 655
+          }
+        ],
+          "sections": [
+          {
+            "name": "Cursed Royal Woodlands - Appease a Calm Ghost",
+            "access_rules": ["$planks,$bricks,$fabric,$incenseoilsea_marrowtoolsancient_tablet"]
+          },
+          {
+            "name": "Cursed Royal Woodlands - Appease an Angry Ghost",
+            "access_rules": ["$planks,$bricks,$fabric,$incenseoilsea_marrowtoolsancient_tablet"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Coastal Grove",
+    "chest_unopened_img": "/images/items/impatience.png",
+    "chest_opened_img": "/images/items/reputation.png",
+    "children": [
+      {
+        "name": "1st Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 193,
+            "y": 355
+          }
+        ],
+          "sections": [
+          {
+            "name": "Coastal Grove - 1st Reputation",
+            "access_rules": [""]
+          }
+        ]
+      },
+      {
+        "name": "2nd Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 292,
+            "y": 355
+          }
+        ],
+          "sections": [
+          {
+            "name": "Coastal Grove - 2nd Reputation",
+            "access_rules": ["$rawfood"]
+          }
+        ]
+      },
+      {
+        "name": "3rd Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 391,
+            "y": 355
+          }
+        ],
+          "sections": [
+          {
+            "name": "Coastal Grove - 3rd Reputation",
+            "access_rules": ["$rawfood"]
+          }
+        ]
+      },
+      {
+        "name": "4th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 490,
+            "y": 355
+          }
+        ],
+          "sections": [
+          {
+            "name": "Coastal Grove - 4th Reputation",
+            "access_rules": ["$planksbricksfabric,$rawfood"]
+          }
+        ]
+      },
+      {
+        "name": "5th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 589,
+            "y": 355
+          }
+        ],
+          "sections": [
+          {
+            "name": "Coastal Grove - 5th Reputation",
+            "access_rules": ["$planksbricksfabric,$rawfood,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "6th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 688,
+            "y": 355
+          }
+        ],
+          "sections": [
+          {
+            "name": "Coastal Grove - 6th Reputation",
+            "access_rules": ["$planksbricksfabric,$complexfood,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "7th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 787,
+            "y": 355
+          }
+        ],
+          "sections": [
+          {
+            "name": "Coastal Grove - 7th Reputation",
+            "access_rules": ["$planksbricksfabric,$complexfood,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "8th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 886,
+            "y": 355
+          }
+        ],
+          "sections": [
+          {
+            "name": "Coastal Grove - 8th Reputation",
+            "access_rules": ["$planks,$bricksfabric,$complexfood,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "9th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 985,
+            "y": 355
+          }
+        ],
+          "sections": [
+          {
+            "name": "Coastal Grove - 9th Reputation",
+            "access_rules": ["$planks,$bricksfabric,$complexfood,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "10th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 1084,
+            "y": 355
+          }
+        ],
+          "sections": [
+          {
+            "name": "Coastal Grove - 10th Reputation",
+            "access_rules": ["$planks,$bricksfabric,$complexfood,$ambertoolsservices,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "11th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 1183,
+            "y": 355
+          }
+        ],
+          "sections": [
+          {
+            "name": "Coastal Grove - 11th Reputation",
+            "access_rules": ["$planks,$bricksfabric,$complexfood,$ambertoolsservices,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "12th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 1282,
+            "y": 355
+          }
+        ],
+          "sections": [
+          {
+            "name": "Coastal Grove - 12th Reputation",
+            "access_rules": ["$planks,$bricks,$fabric,$complexfood,$ambertoolsservices,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "13th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 1381,
+            "y": 355
+          }
+        ],
+          "sections": [
+          {
+            "name": "Coastal Grove - 13th Reputation",
+            "access_rules": ["$planks,$bricks,$fabric,$complexfood,$ambertoolsservices,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "14th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 1480,
+            "y": 355
+          }
+        ],
+          "sections": [
+          {
+            "name": "Coastal Grove - 14th Reputation",
+            "access_rules": ["$planks,$bricks,$fabric,$complexfood,$ambertools,$services,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "15th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 1579,
+            "y": 355
+          }
+        ],
+          "sections": [
+          {
+            "name": "Coastal Grove - 15th Reputation",
+            "access_rules": ["$planks,$bricks,$fabric,$complexfood,$ambertools,$services,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "16th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 1678,
+            "y": 355
+          }
+        ],
+          "sections": [
+          {
+            "name": "Coastal Grove - 16th Reputation",
+            "access_rules": ["$planks,$bricks,$fabric,$complexfood,$ambertools,$services,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "17th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 1777,
+            "y": 355
+          }
+        ],
+          "sections": [
+          {
+            "name": "Coastal Grove - 17th Reputation",
+            "access_rules": ["$planks,$bricks,$fabric,$complexfood,$ambertools,$services,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "Victory",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 1876,
+            "y": 355
+          }
+        ],
+          "sections": [
+          {
+            "name": "Coastal Grove - Victory",
+            "access_rules": ["$planks,$bricks,$fabric,$complexfood,$ambertools,$services,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "Biome",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 1975,
+            "y": 355
+          }
+        ],
+          "sections": [
+          {
+            "name": "Coastal Grove - 1st Expedition",
+            "access_rules": ["$algaefish,$rootsberriesinsectsmushroomsvegetables"]
+          },
+          {
+            "name": "Coastal Grove - 2nd Expedition",
+            "access_rules": ["$planks,$algaefish,$rootsberriesinsectsmushroomsvegetables,$pasteskewersporridge"]
+          },
+          {
+            "name": "Coastal Grove - 3rd Expedition",
+            "access_rules": ["$planks,$bricks,$fabric,$algaefish,$rootsberriesinsectsmushroomsvegetables,$pasteskewersporridge"]
+          },
+          {
+            "name": "Coastal Grove - 4th Expedition",
+            "access_rules": ["$planks,$bricks,$fabric,$purging_fire,$algaefish,$biscuitspiejerkypickled_goods,$pasteskewersporridge"]
+          },
+          {
+            "name": "Coastal Grove - 5th Expedition",
+            "access_rules": ["$planks,$bricks,$fabric,$purging_fire,$algaefish,$biscuitspiejerkypickled_goods,$pasteskewersporridge"]
+          },
+          {
+            "name": "Coastal Grove - 6th Expedition",
+            "access_rules": ["$planks,$bricks,$fabric,$purging_fire,$algaefish,$complexfood,$aleteawine"]
+          },
+          {
+            "name": "Coastal Grove - 7th Expedition",
+            "access_rules": ["$planks,$bricks,$fabric,$purging_fire,$algaefish,$complexfood,$aleteawine"]
+          },
+          {
+            "name": "Coastal Grove - 8th Expedition",
+            "access_rules": ["$planks,$bricks,$fabric,$purging_fire,$algaefish,$complexfood,$aleteawine"]
+          },
+          {
+            "name": "Coastal Grove - 9th Expedition",
+            "access_rules": ["$planks,$bricks,$fabric,$purging_fire,$algaefish,$complexfood,$aleteawine"]
+          },
+          {
+            "name": "Coastal Grove - 10th Expedition",
+            "access_rules": ["$planks,$bricks,$fabric,$purging_fire,$algaefish,$complexfood,$aleteawine"]
+          },
+          {
+            "name": "Coastal Grove - 11th Expedition",
+            "access_rules": ["$planks,$bricks,$fabric,$purging_fire,$algaefish,$complexfood,$aleteawine"]
+          },
+          {
+            "name": "Coastal Grove - 12th Expedition",
+            "access_rules": ["$planks,$bricks,$fabric,$purging_fire,$algaefish,$complexfood,$aleteawine"]
+          },
+          {
+            "name": "Coastal Grove - 13th Expedition",
+            "access_rules": ["$planks,$bricks,$fabric,$purging_fire,$algaefish,$complexfood,$aleteawine"]
+          },
+          {
+            "name": "Coastal Grove - 14th Expedition",
+            "access_rules": ["$planks,$bricks,$fabric,$purging_fire,$algaefish,$complexfood,$aleteawine"]
+          },
+          {
+            "name": "Coastal Grove - 15th Expedition",
+            "access_rules": ["$planks,$bricks,$fabric,$purging_fire,$algaefish,$complexfood,$aleteawine"]
+          },
+          {
+            "name": "Coastal Grove - 16th Expedition",
+            "access_rules": ["$planks,$bricks,$fabric,$purging_fire,$algaefish,$complexfood,$aleteawine"]
+          },
+          {
+            "name": "Coastal Grove - 17th Expedition",
+            "access_rules": ["$planks,$bricks,$fabric,$purging_fire,$algaefish,$complexfood,$aleteawine"]
+          },
+          {
+            "name": "Coastal Grove - 18th Expedition",
+            "access_rules": ["$planks,$bricks,$fabric,$purging_fire,$algaefish,$complexfood,$aleteawine"]
+          },
+          {
+            "name": "Coastal Grove - 19th Expedition",
+            "access_rules": ["$planks,$bricks,$fabric,$purging_fire,$algaefish,$complexfood,$aleteawine"]
+          },
+          {
+            "name": "Coastal Grove - 20th Expedition",
+            "access_rules": ["$planks,$bricks,$fabric,$purging_fire,$algaefish,$complexfood,$aleteawine"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Sealed Forest",
+    "chest_unopened_img": "/images/items/impatience.png",
+    "chest_opened_img": "/images/items/reputation.png",
+    "children": [
+      {
+        "name": "1st Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 193,
+            "y": 1225
+          }
+        ],
+          "sections": [
+          {
+            "name": "Sealed Forest - 1st Reputation",
+            "access_rules": [""]
+          }
+        ]
+      },
+      {
+        "name": "2nd Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 292,
+            "y": 1225
+          }
+        ],
+          "sections": [
+          {
+            "name": "Sealed Forest - 2nd Reputation",
+            "access_rules": ["$rawfood"]
+          }
+        ]
+      },
+      {
+        "name": "3rd Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 391,
+            "y": 1225
+          }
+        ],
+          "sections": [
+          {
+            "name": "Sealed Forest - 3rd Reputation",
+            "access_rules": ["$rawfood"]
+          }
+        ]
+      },
+      {
+        "name": "4th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 490,
+            "y": 1225
+          }
+        ],
+          "sections": [
+          {
+            "name": "Sealed Forest - 4th Reputation",
+            "access_rules": ["$planksbricksfabric,$rawfood"]
+          }
+        ]
+      },
+      {
+        "name": "5th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 589,
+            "y": 1225
+          }
+        ],
+          "sections": [
+          {
+            "name": "Sealed Forest - 5th Reputation",
+            "access_rules": ["$planksbricksfabric,$rawfood,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "6th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 688,
+            "y": 1225
+          }
+        ],
+          "sections": [
+          {
+            "name": "Sealed Forest - 6th Reputation",
+            "access_rules": ["$planksbricksfabric,$complexfood,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "7th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 787,
+            "y": 1225
+          }
+        ],
+          "sections": [
+          {
+            "name": "Sealed Forest - 7th Reputation",
+            "access_rules": ["$planksbricksfabric,$complexfood,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "8th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 886,
+            "y": 1225
+          }
+        ],
+          "sections": [
+          {
+            "name": "Sealed Forest - 8th Reputation",
+            "access_rules": ["$planks,$bricksfabric,$complexfood,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "9th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 985,
+            "y": 1225
+          }
+        ],
+          "sections": [
+          {
+            "name": "Sealed Forest - 9th Reputation",
+            "access_rules": ["$planks,$bricksfabric,$complexfood,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "10th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 1084,
+            "y": 1225
+          }
+        ],
+          "sections": [
+          {
+            "name": "Sealed Forest - 10th Reputation",
+            "access_rules": ["$planks,$bricksfabric,$complexfood,$ambertoolsservices,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "11th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 1183,
+            "y": 1225
+          }
+        ],
+          "sections": [
+          {
+            "name": "Sealed Forest - 11th Reputation",
+            "access_rules": ["$planks,$bricksfabric,$complexfood,$ambertoolsservices,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "12th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 1282,
+            "y": 1225
+          }
+        ],
+          "sections": [
+          {
+            "name": "Sealed Forest - 12th Reputation",
+            "access_rules": ["$planks,$bricks,$fabric,$complexfood,$ambertoolsservices,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "13th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 1381,
+            "y": 1225
+          }
+        ],
+          "sections": [
+          {
+            "name": "Sealed Forest - 13th Reputation",
+            "access_rules": ["$planks,$bricks,$fabric,$complexfood,$ambertoolsservices,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "14th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 1480,
+            "y": 1225
+          }
+        ],
+          "sections": [
+          {
+            "name": "Sealed Forest - 14th Reputation",
+            "access_rules": ["$planks,$bricks,$fabric,$complexfood,$ambertools,$services,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "15th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 1579,
+            "y": 1225
+          }
+        ],
+          "sections": [
+          {
+            "name": "Sealed Forest - 15th Reputation",
+            "access_rules": ["$planks,$bricks,$fabric,$complexfood,$ambertools,$services,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "16th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 1678,
+            "y": 1225
+          }
+        ],
+          "sections": [
+          {
+            "name": "Sealed Forest - 16th Reputation",
+            "access_rules": ["$planks,$bricks,$fabric,$complexfood,$ambertools,$services,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "17th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 1777,
+            "y": 1225
+          }
+        ],
+          "sections": [
+          {
+            "name": "Sealed Forest - 17th Reputation",
+            "access_rules": ["$planks,$bricks,$fabric,$complexfood,$ambertools,$services,$purging_fire"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Trade",
+    "chest_unopened_img": "/images/items/impatience.png",
+    "chest_opened_img": "/images/items/reputation.png",
+    "children": [
+      {
+        "name": "Standing",
+        "map_locations": [
+          {
+            "map": "trades",
+            "x": 1750,
+            "y": 480
+          }
+        ],
+        "sections": [
+          {
+            "name": "Reach level 1 standing with a neighbor",
+            "access_rules": ["$amber,$provisions"]
+          },
+          {
+            "name": "Reach level 2 standing with a neighbor",
+            "access_rules": ["$amber,$provisions,$complexfood"]
+          },
+          {
+            "name": "Reach level 3 standing with a neighbor",
+            "access_rules": ["$amber,$planksbricksfabric,$provisions,$complexfood,$purging_fire"]
+          },
+          {
+            "name": "Reach level 4 standing with a neighbor",
+            "access_rules": ["$amber,$planks,$bricksfabric,$provisions,$complexfood,$purging_fire,$building_materials,crops,luxury,trade_goods"]
+          },
+          {
+            "name": "Reach level 5 standing with a neighbor",
+            "access_rules": ["$amber,$planks,$fabric,$bricks,$provisions,$complexfood,$purging_fire,$building_materials,crops,luxury,trade_goods"]
+          },
+          {
+            "name": "Reach level 1 standing with ALL 4 neighbors",
+            "access_rules": ["$amber,$provisions,$complexfood"]
+          },
+          {
+            "name": "Reach level 2 standing with ALL 4 neighbors",
+            "access_rules": ["$amber,$planksbricksfabric,$provisions,$complexfood,$purging_fire"]
+          },
+          {
+            "name": "Reach level 3 standing with ALL 4 neighbors",
+            "access_rules": ["$amber,$planks,$bricksfabric,$provisions,$complexfood,$purging_fire,$building_materials,crops,luxury,trade_goods"]
+          },
+          {
+            "name": "Reach level 4 standing with ALL 4 neighbors",
+            "access_rules": ["$amber,$planks,$fabric,$bricks,$provisions,$complexfood,$purging_fire,$building_materials,crops,luxury,trade_goods"]
+          },
+          {
+            "name": "Reach level 5 standing with ALL 4 neighbors",
+            "access_rules": ["$amber,$planks,$fabric,$bricks,$provisions,$complexfood,$purging_fire,$building_materials,$crops,$luxury,$trade_goods"]
+          }
+        ]
+      },
+      {
+        "name": "Trade",
+        "sections": [
+          {
+            "name": "75 Berries",
+            "access_rules": ["$berries"]
+          }, 
+          {
+            "name": "75 Eggs",
+            "access_rules": ["$eggs"]
+          }, 
+          {
+            "name": "75 Insects",
+            "access_rules": ["$insects"]
+          }, 
+          {
+            "name": "75 Meat",
+            "access_rules": ["$meat"]
+          }, 
+          {
+            "name": "75 Mushrooms",
+            "access_rules": ["$mushrooms"]
+          }, 
+          {
+            "name": "75 Roots",
+            "access_rules": ["$roots"]
+          }, 
+          {
+            "name": "75 Vegetables",
+            "access_rules": ["$vegetables"]
+          }, 
+          {
+            "name": "75 Fish",
+            "access_rules": ["$fish"]
+          }, 
+          {
+            "name": "100 Biscuits",
+            "access_rules": ["$biscuits,$planks,$fabric,$bricks"]
+          }, 
+          {
+            "name": "100 Jerky",
+            "access_rules": ["$jerky,$planks,$fabric,$bricks"]
+          }, 
+          {
+            "name": "100 Pickled Goods",
+            "access_rules": ["$pickled_goods,$planks,$fabric,$bricks"]
+          }, 
+          {
+            "name": "100 Pie",
+            "access_rules": ["$pie,$planks,$fabric,$bricks"]
+          }, 
+          {
+            "name": "100 Porridge",
+            "access_rules": ["$porridge,$planks,$fabric,$bricks"]
+          }, 
+          {
+            "name": "100 Skewers",
+            "access_rules": ["$skewers,$planks,$fabric,$bricks"]
+          }, 
+          {
+            "name": "100 Paste",
+            "access_rules": ["$paste,$planks,$fabric,$bricks"]
+          }, 
+          {
+            "name": "100 Coats",
+            "access_rules": ["$coats,$planks,$fabric,$bricks"]
+          }, 
+          {
+            "name": "100 Boots",
+            "access_rules": ["$boots,$planks,$fabric,$bricks"]
+          }, 
+          {
+            "name": "40 Bricks",
+            "access_rules": ["$bricks,$planks,$fabric"]
+          }, 
+          {
+            "name": "40 Fabric",
+            "access_rules": ["$fabric,$planks,$bricks"]
+          }, 
+          {
+            "name": "40 Planks",
+            "access_rules": ["$planks,$fabric,$bricks"]
+          }, 
+          {
+            "name": "30 Pipes",
+            "access_rules": ["$pipes,$planks,$fabric,$bricks"]
+          }, 
+          {
+            "name": "75 Ale",
+            "access_rules": ["$ale,$planks,$fabric,$bricks"]
+          }, 
+          {
+            "name": "75 Incense",
+            "access_rules": ["$incense,$planks,$fabric,$bricks"]
+          }, 
+          {
+            "name": "75 Scrolls",
+            "access_rules": ["$scrolls,$planks,$fabric,$bricks"]
+          }, 
+          {
+            "name": "75 Tea",
+            "access_rules": ["$tea,$planks,$fabric,$bricks"]
+          }, 
+          {
+            "name": "75 Training Gear",
+            "access_rules": ["$training_gear,$planks,$fabric,$bricks"]
+          }, 
+          {
+            "name": "75 Wine",
+            "access_rules": ["$wine,$planks,$fabric,$bricks"]
+          }, 
+          {
+            "name": "75 Clay",
+            "access_rules": ["$clay,$planks,$fabric,$bricks"]
+          }, 
+          {
+            "name": "75 Copper Ore",
+            "access_rules": ["$copper_ore,$planks,$fabric,$bricks"]
+          }, 
+          {
+            "name": "75 Scales",
+            "access_rules": ["$scales,$planks,$fabric,$bricks"]
+          }, 
+          {
+            "name": "40 Crystallized Dew",
+            "access_rules": ["$crystalized_dew,$planks,$fabric,$bricks"]
+          }, 
+          {
+            "name": "75 Grain",
+            "access_rules": ["$grain,$planks,$fabric,$bricks"]
+          }, 
+          {
+            "name": "75 Herbs",
+            "access_rules": ["$herbs,$planks,$fabric,$bricks"]
+          }, 
+          {
+            "name": "50 Leather",
+            "access_rules": ["$leather,$planks,$fabric,$bricks"]
+          }, 
+          {
+            "name": "75 Plant Fiber",
+            "access_rules": ["$plant_fiber,$planks,$fabric,$bricks"]
+          }, 
+          {
+            "name": "75 Algae",
+            "access_rules": ["$algae,$planks,$fabric,$bricks"]
+          }, 
+          {
+            "name": "75 Reeds",
+            "access_rules": ["$reeds,$planks,$fabric,$bricks"]
+          }, 
+          {
+            "name": "50 Resin",
+            "access_rules": ["$resin,$planks,$fabric,$bricks"]
+          }, 
+          {
+            "name": "75 Stone",
+            "access_rules": ["$stone,$planks,$fabric,$bricks"]
+          }, 
+          {
+            "name": "75 Barrels",
+            "access_rules": ["$barrels,$planks,$fabric,$bricks"]
+          }, 
+          {
+            "name": "40 Copper Bars",
+            "access_rules": ["$copper_bar,$planks,$fabric,$bricks"]
+          }, 
+          {
+            "name": "75 Flour",
+            "access_rules": ["$flour,$planks,$fabric,$bricks"]
+          }, 
+          {
+            "name": "75 Dye",
+            "access_rules": ["$dye,$planks,$fabric,$bricks"]
+          }, 
+          {
+            "name": "75 Pottery",
+            "access_rules": ["$pottery,$planks,$fabric,$bricks"]
+          }, 
+          {
+            "name": "50 Waterskins",
+            "access_rules": ["$waterskins,$planks,$fabric,$bricks"]
+          }, 
+          {
+            "name": "3 Ancient Tablet",
+            "access_rules": ["$ancient_tablet,$planks,$fabric,$bricks"]
+          }, 
+          {
+            "name": "75 Coal",
+            "access_rules": ["$coal,$planks,$fabric,$bricks"]
+          }, 
+          {
+            "name": "75 Oil",
+            "access_rules": ["$oil,$planks,$fabric,$bricks"]
+          }, 
+          {
+            "name": "20 Purging Fire",
+            "access_rules": ["$purging_fire,$planks,$fabric,$bricks"]
+          }, 
+          {
+            "name": "75 Sea Marrow",
+            "access_rules": ["$sea_marrow,$planks,$fabric,$bricks"]
+          }, 
+          {
+            "name": "30 Tools",
+            "access_rules": ["$tools,$planks,$fabric,$bricks"]
+          }, 
+          {
+            "name": "5 Amber",
+            "access_rules": ["$amber"]
+          }, 
+          {
+            "name": "50 Amber",
+            "access_rules": ["$amber,$provisions,$planks"]
+          }, 
+          {
+            "name": "500 Amber",
+            "access_rules": ["$amber,$provisions,$planks,$bricks,$fabric,$complexfood,$building_materials,crops,luxury,trade_goods,$purging_fire"]
+          }, 
+          {
+            "name": "20 Pack of Building Materials",
+            "access_rules": ["$building_materials"]
+          }, 
+          {
+            "name": "20 Pack of Crops",
+            "access_rules": ["$crops"]
+          }, 
+          {
+            "name": "20 Pack of Provisions",
+            "access_rules": ["$provisions"]
+          }, 
+          {
+            "name": "20 Pack of Luxury Goods",
+            "access_rules": ["$luxury,$planks,$bricks,$fabric"]
+          }, 
+          {
+            "name": "20 Pack of Trade Goods",
+            "access_rules": ["$trade_goods,$planks,$bricks,$fabric"]
+          }, 
+          {
+            "name": "200 Drizzle Water",
+            "access_rules": ["$planks,$pipes"]
+          }, 
+          {
+            "name": "200 Clearance Water",
+            "access_rules": ["$planks,$pipes"]
+          }, 
+          {
+            "name": "200 Storm Water",
+            "access_rules": ["$planks,$pipes"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Completed Order",
+    "chest_unopened_img": "/images/items/impatience.png",
+    "chest_opened_img": "/images/items/reputation.png",
+    "children": [
+      {
+        "name": "1st Pack",
+        "map_locations": [
+          {
+            "map": "trades",
+            "x": 170,
+            "y": 305
+          }
+        ],
+        "sections": [
+          {
+            "name": "1st Pack",
+            "access_rules": [""] 
+          }
+        ]
+      },
+      {
+        "name": "2nd Pack",
+        "map_locations": [
+          {
+            "map": "trades",
+            "x": 460,
+            "y": 305
+          }
+        ],
+        "sections": [
+          {
+            "name": "2nd Pack",
+            "access_rules": ["$rawfood"] 
+          }
+        ]
+      },
+      {
+        "name": "3rd Pack",
+        "map_locations": [
+          {
+            "map": "trades",
+            "x": 750,
+            "y": 305
+          }
+        ],
+        "sections": [
+          {
+            "name": "3rd Pack",
+            "access_rules": ["$rawfood,$planksbricksfabric"] 
+          }
+        ]
+      },
+      {
+        "name": "4th Pack",
+        "map_locations": [
+          {
+            "map": "trades",
+            "x": 1040,
+            "y": 305
+          }
+        ],
+        "sections": [
+          {
+            "name": "4th Pack",
+            "access_rules": ["$complexfood,$planks,$bricksfabric"] 
+          }
+        ]
+      },
+      {
+        "name": "5th Pack",
+        "map_locations": [
+          {
+            "map": "trades",
+            "x": 1330,
+            "y": 305
+          }
+        ],
+        "sections": [
+          {
+            "name": "5th Pack",
+            "access_rules": ["$complexfood,$planks,$bricksfabric"] 
+          }
+        ]
+      },
+      {
+        "name": "6th Pack",
+        "map_locations": [
+          {
+            "map": "trades",
+            "x": 315,
+            "y": 685
+          }
+        ],
+        "sections": [
+          {
+            "name": "6th Pack",
+            "access_rules": ["$complexfood,$planks,$bricksfabric,$purging_fire"] 
+          }
+        ]
+      },
+      {
+        "name": "7th Pack",
+        "map_locations": [
+          {
+            "map": "trades",
+            "x": 605,
+            "y": 685
+          }
+        ],
+        "sections": [
+          {
+            "name": "7th Pack",
+            "access_rules": ["$complexfood,$planks,$bricksfabric,$purging_fire"] 
+          }
+        ]
+      },
+      {
+        "name": "8th Pack",
+        "map_locations": [
+          {
+            "map": "trades",
+            "x": 895,
+            "y": 685
+          }
+        ],
+        "sections": [
+          {
+            "name": "8th Pack",
+            "access_rules": ["$complexfood,$planks,$bricks,$fabric,$purging_fire"] 
+          }
+        ]
+      },
+      {
+        "name": "9th Pack",
+        "map_locations": [
+          {
+            "map": "trades",
+            "x": 1185,
+            "y": 685
+          }
+        ],
+        "sections": [
+          {
+            "name": "9th Pack",
+            "access_rules": ["$complexfood,$planks,$bricks,$fabric,$ambertools,$purging_fire"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Upgraded Hearth",
+    "chest_unopened_img": "/images/items/impatience.png",
+    "chest_opened_img": "/images/items/reputation.png",
+    "children": [
+      {
+        "name": "1st Tier",
+        "map_locations": [
+          {
+            "map": "trades",
+            "x": 325,
+            "y": 1155
+          }
+        ],
+        "sections": [
+          {
+            "name": "1st Tier",
+            "access_rules": [""] 
+          }
+        ]
+      },
+      {
+        "name": "2nd Tier",
+        "map_locations": [
+          {
+            "map": "trades",
+            "x": 525,
+            "y": 1155
+          }
+        ],
+        "sections": [
+          {
+            "name": "2nd Tier",
+            "access_rules": ["$planks"]
+          }
+        ]
+      },
+      {
+        "name": "3rd Tier",
+        "map_locations": [
+          {
+            "map": "trades",
+            "x": 725,
+            "y": 1155
+          }
+        ],
+        "sections": [
+          {
+            "name": "3rd Tier",
+            "access_rules": ["$planks,$fabric,$bricks"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Glades",
+    "chest_unopened_img": "/images/items/impatience.png",
+    "chest_opened_img": "/images/items/reputation.png",
+    "children": [
+      {
+        "name": "Complete a Dangerous Glade Event",
+        "map_locations": [
+          {
+            "map": "trades",
+            "x": 925,
+            "y": 1155
+          }
+        ],
+        "sections": [
+          {
+            "name": "Complete a Dangerous Glade Event",
+            "access_rules": ["$tools,$oilcoalsea_marrow,$incensescrollstea,$planks"] 
+          }
+        ]
+      },
+      {
+        "name": "Complete a Forbidden Glade Event",
+        "map_locations": [
+          {
+            "map": "trades",
+            "x": 1125,
+            "y": 1155
+          }
+        ],
+        "sections": [
+          {
+            "name": "Complete a Forbidden Glade Event",
+            "access_rules": ["$tools,$oilcoalsea_marrow,$incensescrollstea,$planks,$bricksfabric,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "Complete a Glade Event with a Corruption tag",
+        "map_locations": [
+          {
+            "map": "trades",
+            "x": 1325,
+            "y": 1155
+          }
+        ],
+        "sections": [
+          {
+            "name": "Complete a Glade Event with a Corruption tag",
+            "access_rules": ["$tools,$oilcoalsea_marrow,$incensescrollstea,$planks"]
+          }
+        ]
+      },
+      {
+        "name": "Complete a Glade Event with an Empathy tag",
+        "map_locations": [
+          {
+            "map": "trades",
+            "x": 1525,
+            "y": 1155
+          } 
+        ],
+        "sections": [
+          {
+            "name": "Complete a Glade Event with an Empathy tag",
+            "access_rules": ["$tools,$oilcoalsea_marrow,$incensescrollstea,$planks"]
+          }
+        ]
+      },
+      {
+        "name": "Complete a Glade Event with a Loyalty tag",
+        "map_locations": [
+          {
+            "map": "trades",
+            "x": 1725,
+            "y": 1155
+          }
+        ],
+        "sections": [
+          {
+            "name": "Complete a Glade Event with a Loyalty tag",
+            "access_rules": ["$tools,$rawfood"]
+          }
+        ]
+      }
+    ]
+  } 
 ]

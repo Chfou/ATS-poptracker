@@ -8,11 +8,11 @@
   "min_poptracker_version": "0.25.9",
   "target_poptracker_version": "0.28.0",
   "variants": {
-    "standard_itemsonly": {
+    "standard": {
       "display_name": "Items Only",
       "flags": ["ap"]
     },
-    "bp_itemsonly": {
+    "bp": {
       "display_name": "Items + Blueprints",
       "flags": ["ap"]
     }

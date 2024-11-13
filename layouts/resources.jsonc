@@ -11,7 +11,7 @@
         "h_alignment": "left",
         "item_margin": "5,5",
         "rows": [
-          ["coal", "oil", "sea_marrow", "tools", "purging fire"],
+          ["coal", "oil", "sea_marrow", "tools", "purging_fire"],
           ["berries", "eggs", "fish", "insects", "meat", "mushrooms", "roots", "vegetables"],
           ["planks", "fabric", "bricks", "parts", "pipes", "wildfire"],
           ["biscuits", "jerky", "paste", "pickled_goods", "pie", "porridge", "skewers"],
@@ -25,3 +25,4 @@
     ]
   }
 }
+  

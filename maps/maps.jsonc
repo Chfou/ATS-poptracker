@@ -1,15 +1,21 @@
 [
   //more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#maps
   {
-    "name": "map1",
+    "name": "biomes",
     "location_size": 48,
     "location_border_thickness": 4,
-    "img": "images/maps/map.png"
+    "img": "images/maps/biomes.png"
   },
   {
-    "name": "map2",
+    "name": "species",
     "location_size": 48,
     "location_border_thickness": 4,
-    "img": "images/maps/map_2.png"
+    "img": "images/maps/species.png"
+  },
+  {
+    "name": "trades",
+    "location_size": 48,
+    "location_border_thickness": 4,
+    "img": "images/maps/trades_and_general.png"
   }
 ]
