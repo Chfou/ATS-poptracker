@@ -10,6 +10,7 @@
         "dock": "bottom",
         "h_alignment": "left",
         "item_margin": "5,5",
+        "item_size": "24,24",
         "rows": [
           ["coal", "oil", "sea_marrow", "tools", "purging_fire"],
           ["berries", "eggs", "fish", "insects", "meat", "mushrooms", "roots", "vegetables"],

@@ -6,7 +6,6 @@
     "background": "#000000",
     "content": {
       "type": "dock",
-      "dropshadow": true,
       "content": [
         {
           "type": "dock",
@@ -26,7 +25,6 @@
               "content": [
                 {
                   "type": "group",
-                  "dock": "top",
                   "content": {
                     "type": "layout",
                     "key": "shared_item_grid"
