@@ -1946,6 +1946,325 @@
     ]
   },
   {
+    "name": "Ashen Thicket",
+    "chest_unopened_img": "/images/items/impatience.png",
+    "chest_opened_img": "/images/items/reputation.png",
+    "children": [
+      {
+        "name": "1st Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 193,
+            "y": 210
+          }
+        ],
+          "sections": [
+          {
+            "name": "Ashen Thicket - 1st Reputation",
+            "access_rules": [""]
+          }
+        ]
+      },
+      {
+        "name": "2nd Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 292,
+            "y": 210
+          }
+        ],
+          "sections": [
+          {
+            "name": "Ashen Thicket - 2nd Reputation",
+            "access_rules": ["$rawfood"]
+          }
+        ]
+      },
+      {
+        "name": "3rd Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 391,
+            "y": 210
+          }
+        ],
+          "sections": [
+          {
+            "name": "Ashen Thicket - 3rd Reputation",
+            "access_rules": ["$rawfood"]
+          }
+        ]
+      },
+      {
+        "name": "4th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 490,
+            "y": 210
+          }
+        ],
+          "sections": [
+          {
+            "name": "Ashen Thicket - 4th Reputation",
+            "access_rules": ["$planksbricksfabric,$rawfood"]
+          }
+        ]
+      },
+      {
+        "name": "5th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 589,
+            "y": 210
+          }
+        ],
+          "sections": [
+          {
+            "name": "Ashen Thicket - 5th Reputation",
+            "access_rules": ["$planksbricksfabric,$rawfood,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "6th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 688,
+            "y": 210
+          }
+        ],
+          "sections": [
+          {
+            "name": "Ashen Thicket - 6th Reputation",
+            "access_rules": ["$planksbricksfabric,$complexfood,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "7th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 787,
+            "y": 210
+          }
+        ],
+          "sections": [
+          {
+            "name": "Ashen Thicket - 7th Reputation",
+            "access_rules": ["$planksbricksfabric,$complexfood,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "8th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 886,
+            "y": 210
+          }
+        ],
+          "sections": [
+          {
+            "name": "Ashen Thicket - 8th Reputation",
+            "access_rules": ["$planks,$bricksfabric,$complexfood,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "9th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 985,
+            "y": 210
+          }
+        ],
+          "sections": [
+          {
+            "name": "Ashen Thicket - 9th Reputation",
+            "access_rules": ["$planks,$bricksfabric,$complexfood,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "10th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 1084,
+            "y": 210
+          }
+        ],
+          "sections": [
+          {
+            "name": "Ashen Thicket - 10th Reputation",
+            "access_rules": ["$planks,$bricksfabric,$complexfood,$ambertoolsservices,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "11th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 1183,
+            "y": 210
+          }
+        ],
+          "sections": [
+          {
+            "name": "Ashen Thicket - 11th Reputation",
+            "access_rules": ["$planks,$bricksfabric,$complexfood,$ambertoolsservices,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "12th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 1282,
+            "y": 210
+          }
+        ],
+          "sections": [
+          {
+            "name": "Ashen Thicket - 12th Reputation",
+            "access_rules": ["$planks,$bricks,$fabric,$complexfood,$ambertoolsservices,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "13th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 1381,
+            "y": 210
+          }
+        ],
+          "sections": [
+          {
+            "name": "Ashen Thicket - 13th Reputation",
+            "access_rules": ["$planks,$bricks,$fabric,$complexfood,$ambertoolsservices,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "14th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 1480,
+            "y": 210
+          }
+        ],
+          "sections": [
+          {
+            "name": "Ashen Thicket - 14th Reputation",
+            "access_rules": ["$planks,$bricks,$fabric,$complexfood,$ambertools,$services,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "15th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 1579,
+            "y": 210
+          }
+        ],
+          "sections": [
+          {
+            "name": "Ashen Thicket - 15th Reputation",
+            "access_rules": ["$planks,$bricks,$fabric,$complexfood,$ambertools,$services,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "16th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 1678,
+            "y": 210
+          }
+        ],
+          "sections": [
+          {
+            "name": "Ashen Thicket - 16th Reputation",
+            "access_rules": ["$planks,$bricks,$fabric,$complexfood,$ambertools,$services,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "17th Reputation",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 1777,
+            "y": 210
+          }
+        ],
+          "sections": [
+          {
+            "name": "Ashen Thicket - 17th Reputation",
+            "access_rules": ["$planks,$bricks,$fabric,$complexfood,$ambertools,$services,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "Victory",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 1876,
+            "y": 210
+          }
+        ],
+          "sections": [
+          {
+            "name": "Ashen Thicket - Victory",
+            "access_rules": ["$planks,$bricks,$fabric,$complexfood,$ambertools,$services,$purging_fire"]
+          }
+        ]
+      },
+      {
+        "name": "Biome",
+        "map_locations": [
+          {
+            "map": "biomes",
+            "x": 1975,
+            "y": 210
+          }
+        ],
+          "sections": [
+          {
+            "name": "Ashen Thicket - 1st Cornerstone",
+            "access_rules": [""]
+          },
+          {
+            "name": "Ashen Thicket - 2nd Cornerstone",
+            "access_rules": ["$planks,$bricks"]
+          },
+          {
+            "name": "Ashen Thicket - 3rd Cornerstone",
+            "access_rules": ["$planks,$bricks,$coalcopper_oresalt"]
+          }
+        ]
+      }
+    ]
+  },
+  {
     "name": "Coastal Grove",
     "chest_unopened_img": "/images/items/impatience.png",
     "chest_opened_img": "/images/items/reputation.png",
@@ -2254,7 +2573,7 @@
           },
           {
             "name": "Coastal Grove - 2nd Expedition",
-            "access_rules": ["$planks,$algaefish,$rootsberriesinsectsmushroomsvegetables,$pasteskewersporridge"]
+            "access_rules": ["$planks,$algaefish,$rootsberriesinsectsmushroomsvegetables"]
           },
           {
             "name": "Coastal Grove - 3rd Expedition",
@@ -2262,71 +2581,71 @@
           },
           {
             "name": "Coastal Grove - 4th Expedition",
-            "access_rules": ["$planks,$bricks,$fabric,$purging_fire,$algaefish,$biscuitspiejerkypickled_goods,$pasteskewersporridge"]
+            "access_rules": ["$planks,$bricks,$fabric,$purging_fire,$algaefish,$rootsberriesinsectsmushroomsvegetables,$biscuitspiejerkypickled_goods,$pasteskewersporridge"]
           },
           {
             "name": "Coastal Grove - 5th Expedition",
-            "access_rules": ["$planks,$bricks,$fabric,$purging_fire,$algaefish,$biscuitspiejerkypickled_goods,$pasteskewersporridge"]
+            "access_rules": ["$planks,$bricks,$fabric,$purging_fire,$algaefish,$rootsberriesinsectsmushroomsvegetables,$biscuitspiejerkypickled_goods,$pasteskewersporridge"]
           },
           {
             "name": "Coastal Grove - 6th Expedition",
-            "access_rules": ["$planks,$bricks,$fabric,$purging_fire,$algaefish,$complexfood,$aleteawine"]
+            "access_rules": ["$planks,$bricks,$fabric,$purging_fire,$algaefish,$rootsberriesinsectsmushroomsvegetables,$biscuitspiejerkypickled_goods,$pasteskewersporridge,$aleteawine"]
           },
           {
             "name": "Coastal Grove - 7th Expedition",
-            "access_rules": ["$planks,$bricks,$fabric,$purging_fire,$algaefish,$complexfood,$aleteawine"]
+            "access_rules": ["$planks,$bricks,$fabric,$purging_fire,$algaefish,$rootsberriesinsectsmushroomsvegetables,$biscuitspiejerkypickled_goods,$pasteskewersporridge,$aleteawine"]
           },
           {
             "name": "Coastal Grove - 8th Expedition",
-            "access_rules": ["$planks,$bricks,$fabric,$purging_fire,$algaefish,$complexfood,$aleteawine"]
+            "access_rules": ["$planks,$bricks,$fabric,$purging_fire,$algaefish,$rootsberriesinsectsmushroomsvegetables,$biscuitspiejerkypickled_goods,$pasteskewersporridge,$aleteawine"]
           },
           {
             "name": "Coastal Grove - 9th Expedition",
-            "access_rules": ["$planks,$bricks,$fabric,$purging_fire,$algaefish,$complexfood,$aleteawine"]
+            "access_rules": ["$planks,$bricks,$fabric,$purging_fire,$algaefish,$rootsberriesinsectsmushroomsvegetables,$biscuitspiejerkypickled_goods,$pasteskewersporridge,$aleteawine"]
           },
           {
             "name": "Coastal Grove - 10th Expedition",
-            "access_rules": ["$planks,$bricks,$fabric,$purging_fire,$algaefish,$complexfood,$aleteawine"]
+            "access_rules": ["$planks,$bricks,$fabric,$purging_fire,$algaefish,$rootsberriesinsectsmushroomsvegetables,$biscuitspiejerkypickled_goods,$pasteskewersporridge,$aleteawine"]
           },
           {
             "name": "Coastal Grove - 11th Expedition",
-            "access_rules": ["$planks,$bricks,$fabric,$purging_fire,$algaefish,$complexfood,$aleteawine"]
+            "access_rules": ["$planks,$bricks,$fabric,$purging_fire,$algaefish,$rootsberriesinsectsmushroomsvegetables,$biscuitspiejerkypickled_goods,$pasteskewersporridge,$aleteawine"]
           },
           {
             "name": "Coastal Grove - 12th Expedition",
-            "access_rules": ["$planks,$bricks,$fabric,$purging_fire,$algaefish,$complexfood,$aleteawine"]
+            "access_rules": ["$planks,$bricks,$fabric,$purging_fire,$algaefish,$rootsberriesinsectsmushroomsvegetables,$biscuitspiejerkypickled_goods,$pasteskewersporridge,$aleteawine"]
           },
           {
             "name": "Coastal Grove - 13th Expedition",
-            "access_rules": ["$planks,$bricks,$fabric,$purging_fire,$algaefish,$complexfood,$aleteawine"]
+            "access_rules": ["$planks,$bricks,$fabric,$purging_fire,$algaefish,$rootsberriesinsectsmushroomsvegetables,$biscuitspiejerkypickled_goods,$pasteskewersporridge,$aleteawine"]
           },
           {
             "name": "Coastal Grove - 14th Expedition",
-            "access_rules": ["$planks,$bricks,$fabric,$purging_fire,$algaefish,$complexfood,$aleteawine"]
+            "access_rules": ["$planks,$bricks,$fabric,$purging_fire,$algaefish,$rootsberriesinsectsmushroomsvegetables,$biscuitspiejerkypickled_goods,$pasteskewersporridge,$aleteawine"]
           },
           {
             "name": "Coastal Grove - 15th Expedition",
-            "access_rules": ["$planks,$bricks,$fabric,$purging_fire,$algaefish,$complexfood,$aleteawine"]
+            "access_rules": ["$planks,$bricks,$fabric,$purging_fire,$algaefish,$rootsberriesinsectsmushroomsvegetables,$biscuitspiejerkypickled_goods,$pasteskewersporridge,$aleteawine"]
           },
           {
             "name": "Coastal Grove - 16th Expedition",
-            "access_rules": ["$planks,$bricks,$fabric,$purging_fire,$algaefish,$complexfood,$aleteawine"]
+            "access_rules": ["$planks,$bricks,$fabric,$purging_fire,$algaefish,$rootsberriesinsectsmushroomsvegetables,$biscuitspiejerkypickled_goods,$pasteskewersporridge,$aleteawine"]
           },
           {
             "name": "Coastal Grove - 17th Expedition",
-            "access_rules": ["$planks,$bricks,$fabric,$purging_fire,$algaefish,$complexfood,$aleteawine"]
+            "access_rules": ["$planks,$bricks,$fabric,$purging_fire,$algaefish,$rootsberriesinsectsmushroomsvegetables,$biscuitspiejerkypickled_goods,$pasteskewersporridge,$aleteawine"]
           },
           {
             "name": "Coastal Grove - 18th Expedition",
-            "access_rules": ["$planks,$bricks,$fabric,$purging_fire,$algaefish,$complexfood,$aleteawine"]
+            "access_rules": ["$planks,$bricks,$fabric,$purging_fire,$algaefish,$rootsberriesinsectsmushroomsvegetables,$biscuitspiejerkypickled_goods,$pasteskewersporridge,$aleteawine"]
           },
           {
             "name": "Coastal Grove - 19th Expedition",
-            "access_rules": ["$planks,$bricks,$fabric,$purging_fire,$algaefish,$complexfood,$aleteawine"]
+            "access_rules": ["$planks,$bricks,$fabric,$purging_fire,$algaefish,$rootsberriesinsectsmushroomsvegetables,$biscuitspiejerkypickled_goods,$pasteskewersporridge,$aleteawine"]
           },
           {
             "name": "Coastal Grove - 20th Expedition",
-            "access_rules": ["$planks,$bricks,$fabric,$purging_fire,$algaefish,$complexfood,$aleteawine"]
+            "access_rules": ["$planks,$bricks,$fabric,$purging_fire,$algaefish,$rootsberriesinsectsmushroomsvegetables,$biscuitspiejerkypickled_goods,$pasteskewersporridge,$aleteawine"]
           }
         ]
       }
@@ -2741,15 +3060,15 @@
           }, 
           {
             "name": "40 Bricks",
-            "access_rules": ["$bricks,$planks,$fabric"]
+            "access_rules": ["$bricks"]
           }, 
           {
             "name": "40 Fabric",
-            "access_rules": ["$fabric,$planks,$bricks"]
+            "access_rules": ["$fabric"]
           }, 
           {
             "name": "40 Planks",
-            "access_rules": ["$planks,$fabric,$bricks"]
+            "access_rules": ["$planks"]
           }, 
           {
             "name": "30 Pipes",
@@ -2781,15 +3100,15 @@
           }, 
           {
             "name": "75 Clay",
-            "access_rules": ["$clay,$planks,$fabric,$bricks"]
+            "access_rules": ["$clay"]
           }, 
           {
             "name": "75 Copper Ore",
-            "access_rules": ["$copper_ore,$planks,$fabric,$bricks"]
+            "access_rules": ["$copper_ore"]
           }, 
           {
             "name": "75 Scales",
-            "access_rules": ["$scales,$planks,$fabric,$bricks"]
+            "access_rules": ["$scales"]
           }, 
           {
             "name": "40 Crystallized Dew",
@@ -2797,35 +3116,39 @@
           }, 
           {
             "name": "75 Grain",
-            "access_rules": ["$grain,$planks,$fabric,$bricks"]
+            "access_rules": ["$grain"]
           }, 
           {
             "name": "75 Herbs",
-            "access_rules": ["$herbs,$planks,$fabric,$bricks"]
+            "access_rules": ["$herbs"]
           }, 
           {
             "name": "50 Leather",
-            "access_rules": ["$leather,$planks,$fabric,$bricks"]
+            "access_rules": ["$leather"]
           }, 
           {
             "name": "75 Plant Fiber",
-            "access_rules": ["$plant_fiber,$planks,$fabric,$bricks"]
+            "access_rules": ["$plant_fiber"]
           }, 
           {
             "name": "75 Algae",
-            "access_rules": ["$algae,$planks,$fabric,$bricks"]
+            "access_rules": ["$algae"]
           }, 
           {
             "name": "75 Reeds",
-            "access_rules": ["$reeds,$planks,$fabric,$bricks"]
+            "access_rules": ["$reeds"]
           }, 
           {
             "name": "50 Resin",
-            "access_rules": ["$resin,$planks,$fabric,$bricks"]
+            "access_rules": ["$resin"]
           }, 
           {
             "name": "75 Stone",
-            "access_rules": ["$stone,$planks,$fabric,$bricks"]
+            "access_rules": ["$stone"]
+          }, 
+          {
+            "name": "75 Salt",
+            "access_rules": ["$salt"]
           }, 
           {
             "name": "75 Barrels",
@@ -2857,7 +3180,7 @@
           }, 
           {
             "name": "75 Coal",
-            "access_rules": ["$coal,$planks,$fabric,$bricks"]
+            "access_rules": ["$coal"]
           }, 
           {
             "name": "75 Oil",
@@ -2869,7 +3192,7 @@
           }, 
           {
             "name": "75 Sea Marrow",
-            "access_rules": ["$sea_marrow,$planks,$fabric,$bricks"]
+            "access_rules": ["$sea_marrow"]
           }, 
           {
             "name": "30 Tools",

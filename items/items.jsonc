@@ -614,6 +614,12 @@
   "codes": "stone"
  },
  {
+  "name": "Salt",
+  "type": "toggle",
+  "img": "images/items/materials/crafting_materials/Salt.png",
+  "codes": "salt"
+ },
+ {
   "name": "Waterskins",
   "type": "toggle",
   "img": "images/items/materials/crafting_materials/Waterskins.png",

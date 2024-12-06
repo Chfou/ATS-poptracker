@@ -6,6 +6,7 @@
 -- if you run into issues when touching A LOT of items/locations here, see the comment about Tracker.AllowDeferredLogicUpdate in autotracking.lua
 ScriptHost:LoadScript("scripts/autotracking/item_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
+ScriptHost:LoadScript("scripts/autotracking/reputation_mapping.lua")
 
 CUR_INDEX = -1
 LOCAL_ITEMS = {}
@@ -76,9 +77,39 @@ function incrementItem(item_code, item_type)
 	end
 end
 
+function enable_reputation(reputation)
+	for _, location_table in ipairs(REPUTATION_MAPPING[reputation]) do
+		if location_table then
+			local location_code = location_table
+			if location_code then
+				if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+					print(string.format("onClear: enabling location %s", location_code))
+				end
+				if location_code:sub(1, 1) == "@" then
+					local obj = Tracker:FindObjectForCode(location_code)
+					if obj then
+						obj.AvailableChestCount = obj.ChestCount
+					elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+						print(string.format("enable_reputation: could not find location object for code %s", location_code))
+					end
+				end
+			elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+				print(string.format("enable_reputation: skipping location_table with no location_code"))
+			end
+		elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+			print(string.format("enable_reputation: skipping empty location_table"))
+		end
+	end
+end
+
 -- apply everything needed from slot_data, called from onClear
 function apply_slot_data(slot_data)
+	print(string.format("called apply_slot_data, slot_data:\n%s", dump_table(slot_data["rep_location_indices"])))
 	-- put any code here that slot_data should affect (toggling setting items for example)
+	local reputation_table = slot_data["rep_location_indices"]
+	for _, reputation in ipairs(reputation_table) do
+		enable_reputation(reputation)
+	end
 end
 
 -- called right after an AP slot is connected
@@ -115,6 +146,31 @@ function onClear(slot_data)
 				end
 			elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
 				print(string.format("onClear: skipping empty location_table"))
+			end
+		end
+	end
+	--disable biomes
+	for _, mapping_entry in pairs(REPUTATION_MAPPING) do
+		for _, location_table in ipairs(mapping_entry) do
+			if location_table then
+				local location_code = location_table
+				if location_code then
+					if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+						print(string.format("disabling: disabling location %s", location_code))
+					end
+					if location_code:sub(1, 1) == "@" then
+						local obj = Tracker:FindObjectForCode(location_code)
+						if obj then
+							obj.AvailableChestCount = 0
+						elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+							print(string.format("disabling: could not find location object for code %s", location_code))
+						end
+					end
+				elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+					print(string.format("disabling: skipping location_table with no location_code"))
+				end
+			elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+				print(string.format("disabling: skipping empty location_table"))
 			end
 		end
 	end

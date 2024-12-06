@@ -315,6 +315,11 @@ function stone()
     return (has("stone"))
 end
 
+function salt()
+    return (has("salt"))
+end
+
+
 function barrels()
     return (has("barrels"))
 end
@@ -369,4 +374,8 @@ end
 
 function incensescrollstea()
     return (has("incense") or has("scrolls") or has("tea"))
+end
+
+function coalcopper_oresalt()
+    return (has("coal") or has("copper_ore") or has("salt"))
 end

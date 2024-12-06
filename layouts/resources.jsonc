@@ -16,7 +16,7 @@
           ["berries", "eggs", "fish", "insects", "meat", "mushrooms", "roots", "vegetables"],
           ["planks", "fabric", "bricks", "parts", "pipes", "wildfire"],
           ["biscuits", "jerky", "paste", "pickled_goods", "pie", "porridge", "skewers"],
-          ["algae",  "clay", "copper_ore", "grain", "herbs",  "plant_fiber", "reeds", "resin", "scales", "stone"],
+          ["algae",  "clay", "copper_ore", "grain", "herbs",  "plant_fiber", "reeds", "resin", "scales", "stone", "salt"],
           ["barrels", "copper_bar", "crystalized_dew", "dye", "flour",  "leather", "pottery", "waterskins"],
           ["coats", "boots"],
           ["ale", "incense", "scrolls", "tea", "training_gear", "wine"],
